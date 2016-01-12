@@ -1,0 +1,86 @@
+//	Galactica_CarbonHeaders.pch++
+// ===========================================================================
+// Copyright (c) 1996-2002, Sacred Tree Software
+// All rights reserved
+// ===========================================================================
+//
+//	
+//	Source for precompiled headers for Galacticaª using PowerPlant, 
+//	with some memory checking options turned on, and support for error logging
+//	to an output file.
+//
+//	This file #includes most header files for the PowerPlant library,
+//	as well as most of the Toolbox headers used by the PowerPlant library.
+
+
+// detect the platform we are compiling for
+//#define PLATFORM_USE_MAC_CARBON_API   // if compiling for the Mac we assume Carbon
+#include "platform.h"
+
+// setup the output file to use for this 
+#if PLATFORM_PPC
+	#pragma precompile_target "Galactica_HeadersPPC"
+	
+#elif PLATFORM_68K
+	#error unsupported target ##PLATFORM_STR
+
+#else
+	#error unsupported target ##PLATFORM_STR
+#endif
+
+#define TARGET_CARBON 0
+#define TARGET_API_MAC_OS8 1
+#define TARGET_API_MAC_CARBON 0
+#define PP_Target_Carbon 0
+
+#define TUTORIAL_SUPPORT 1
+#define BALLOON_SUPPORT 1
+
+// don't include all of OpenPlay, only need low level stuff
+#define OPENPLAY_LIMITED
+
+#define PP_Suppress_Notes_20 1
+#define PP_Suppress_Notes_22 1
+#define PP_Obsolete_ThrowExceptionCode	1	// galactica depends on old exception codes
+//#define PP_Uses_Aqua_MenuBar 1
+//#define PP_StdDialogs_Option	PP_StdDialogs_NavServicesOnly   // use Navigation services dialogs
+
+// uncomment the following line to use cout programmer debugging comments.
+// see GalacticHostDoc::DoEndTurn() for an example of how to implement the comments
+
+#define DEBUG_REPORTING 1
+
+// uncomment the following line to use a debug version of the new and delete operators
+// that detect bad deletes, mem overwrites, use of invalid objects, and memory leaks
+
+//#define CHECK_FOR_MEMORY_LEAKS
+
+
+// uncomment the following lines to use a debug version of the database that reports
+// everything that happens and any irregularities.
+
+#define DB_DEBUG_MODE 1
+#define DB_LOG_ACTIONS 1
+
+#define Debug_Throw			// include the debug version of the exception handlers
+
+// uncomment the following line to use include support the stuff in DebugMacros.h.
+
+#define DEBUG_MACROS_ENABLED	// marks this as a debug version
+
+#include <math.h>
+
+#if PLATFORM_MACOS
+  #include <fp.h>	// 1.2b8, CWPro4 try to fix conflict between cmath and fp.h
+  #define DEBUG_NEW 1	// gives us DEBUG_NEW_BASIC support, catches many bad ops, 
+  #include <DebugNew.h> // but has no memory leak checking               
+#endif // PLATFORM_MACOS
+
+#include "DebugMacros.h"
+
+// Include the actual header files ...
+
+#include <ConditionalMacros.h>
+
+#include "PP_ClassHeaders.cp"
+

@@ -1,0 +1,1360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB06540109944F7800BFEA7A /* LScrollerView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB06540009944F7800BFEA7A /* LScrollerView.cp */; };
+		AB06540D099451F500BFEA7A /* LScrollBar.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB06540C099451F500BFEA7A /* LScrollBar.cp */; };
+		ABB76A4F0989BBD4002D66AB /* UWindows.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55031009885EC800E59A2B /* UWindows.cp */; };
+		ABB76A500989BBD4002D66AB /* UTEViewTextAction.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030E09885EC800E59A2B /* UTEViewTextAction.cp */; };
+		ABB76A510989BBD4002D66AB /* UTETextAction.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55048C09886B3100E59A2B /* UTETextAction.cp */; };
+		ABB76A520989BBD4002D66AB /* USound.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142F309847EC200C810AB /* USound.cp */; };
+		ABB76A540989BBD4002D66AB /* UShipUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E133090B1FAD0048AA26 /* UShipUtils.cpp */; };
+		ABB76A550989BBD4002D66AB /* UScreenPort.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030D09885EC800E59A2B /* UScreenPort.cp */; };
+		ABB76A560989BBD4002D66AB /* UScrap.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55048009886AC500E59A2B /* UScrap.cp */; };
+		ABB76A570989BBD4002D66AB /* URegistrar.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030C09885EC800E59A2B /* URegistrar.cp */; };
+		ABB76A580989BBD4002D66AB /* URegions.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030B09885EC800E59A2B /* URegions.cp */; };
+		ABB76A590989BBD4002D66AB /* UReanimator.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030A09885EC800E59A2B /* UReanimator.cp */; };
+		ABB76A5A0989BBD4002D66AB /* UProcessMgr.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55048B09886B3100E59A2B /* UProcessMgr.cp */; };
+		ABB76A5B0989BBD4002D66AB /* UPrinting.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030909885EC800E59A2B /* UPrinting.cp */; };
+		ABB76A5C0989BBD4002D66AB /* UNewModalDialogs.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142F209847EC200C810AB /* UNewModalDialogs.cp */; };
+		ABB76A5D0989BBD4002D66AB /* UNavServicesDialogs.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030809885EC800E59A2B /* UNavServicesDialogs.cp */; };
+		ABB76A5E0989BBD4002D66AB /* UModalDialogs.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030709885EC800E59A2B /* UModalDialogs.cp */; };
+		ABB76A5F0989BBD4002D66AB /* UMemoryMgr.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030609885EC800E59A2B /* UMemoryMgr.cp */; };
+		ABB76A600989BBD4002D66AB /* UKeyFilters.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030509885EC800E59A2B /* UKeyFilters.cp */; };
+		ABB76A610989BBD4002D66AB /* UGWorld.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030409885EC800E59A2B /* UGWorld.cp */; };
+		ABB76A620989BBD4002D66AB /* UGraphicUtils.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030309885EC800E59A2B /* UGraphicUtils.cp */; };
+		ABB76A630989BBD4002D66AB /* UGAColorRamp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047F09886AC500E59A2B /* UGAColorRamp.cp */; };
+		ABB76A640989BBD4002D66AB /* UExtractFromAEDesc.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55048A09886B3100E59A2B /* UExtractFromAEDesc.cp */; };
+		ABB76A650989BBD4002D66AB /* UException.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030209885EC800E59A2B /* UException.cp */; };
+		ABB76A660989BBD4002D66AB /* UEnvironment.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030109885EC800E59A2B /* UEnvironment.cp */; };
+		ABB76A670989BBD4002D66AB /* UDrawingUtils.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55030009885EC800E59A2B /* UDrawingUtils.cp */; };
+		ABB76A680989BBD4002D66AB /* UDrawingState.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FF09885EC800E59A2B /* UDrawingState.cp */; };
+		ABB76A690989BBD4002D66AB /* UDebugging.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FE09885EC800E59A2B /* UDebugging.cp */; };
+		ABB76A6A0989BBD4002D66AB /* UCursor.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FD09885EC800E59A2B /* UCursor.cp */; };
+		ABB76A6B0989BBD4002D66AB /* UControlMgr.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5504AA09886DA800E59A2B /* UControlMgr.cp */; };
+		ABB76A6C0989BBD4002D66AB /* UAttachments.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FC09885EC800E59A2B /* UAttachments.cp */; };
+		ABB76A6D0989BBD4002D66AB /* UAppleEventsMgr.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FB09885EC800E59A2B /* UAppleEventsMgr.cp */; };
+		ABB76A6E0989BBD4002D66AB /* UAppearance.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047E09886AC500E59A2B /* UAppearance.cp */; };
+		ABB76A6F0989BBD4002D66AB /* Slider.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D609847E0A00C810AB /* Slider.cp */; };
+		ABB76A720989BBD4002D66AB /* ProductInformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1D9090B2CE60048AA26 /* ProductInformation.cpp */; };
+		ABB76A730989BBD4002D66AB /* PP_Constants.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502FA09885EC800E59A2B /* PP_Constants.cp */; };
+		ABB76A750989BBD4002D66AB /* os-macosx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB749B4F092C3C9800CC7BA6 /* os-macosx.cpp */; };
+		ABB76A760989BBD4002D66AB /* OrderFormAttach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91421E0983F10C00C810AB /* OrderFormAttach.cpp */; };
+		ABB76A790989BBD4002D66AB /* MatchMakerClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E131090B1FAD0048AA26 /* MatchMakerClient.cpp */; };
+		ABB76A7A0989BBD4002D66AB /* LWindow.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F909885EC800E59A2B /* LWindow.cp */; };
+		ABB76A7B0989BBD4002D66AB /* LView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F809885EC800E59A2B /* LView.cp */; };
+		ABB76A7C0989BBD4002D66AB /* LUndoer.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047D09886AC500E59A2B /* LUndoer.cp */; };
+		ABB76A7D0989BBD4002D66AB /* LToggleButton.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F709885EC800E59A2B /* LToggleButton.cp */; };
+		ABB76A7E0989BBD4002D66AB /* LTimerTaskFunctor.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047C09886AC500E59A2B /* LTimerTaskFunctor.cp */; };
+		ABB76A7F0989BBD4002D66AB /* LTimerTask.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F609885EC800E59A2B /* LTimerTask.cp */; };
+		ABB76A800989BBD4002D66AB /* LThermometerPane.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D509847E0A00C810AB /* LThermometerPane.cp */; };
+		ABB76A810989BBD4002D66AB /* LTextEditView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F509885EC800E59A2B /* LTextEditView.cp */; };
+		ABB76A820989BBD4002D66AB /* LTextButton.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F409885EC800E59A2B /* LTextButton.cp */; };
+		ABB76A830989BBD4002D66AB /* LTable.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F309885EC800E59A2B /* LTable.cp */; };
+		ABB76A840989BBD4002D66AB /* LTabGroup.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F209885EC800E59A2B /* LTabGroup.cp */; };
+		ABB76A850989BBD4002D66AB /* LString.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F109885EC800E59A2B /* LString.cp */; };
+		ABB76A860989BBD4002D66AB /* LStream.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502F009885EC800E59A2B /* LStream.cp */; };
+		ABB76A870989BBD4002D66AB /* LStdControlImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502EF09885EC800E59A2B /* LStdControlImp.cp */; };
+		ABB76A880989BBD4002D66AB /* LStdControl.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502EE09885EC800E59A2B /* LStdControl.cp */; };
+		ABB76A890989BBD4002D66AB /* LSingleDoc.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502ED09885EC800E59A2B /* LSingleDoc.cp */; };
+		ABB76A8A0989BBD4002D66AB /* LScroller.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502EC09885EC800E59A2B /* LScroller.cp */; };
+		ABB76A8B0989BBD4002D66AB /* LRadioGroup.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502EB09885EC800E59A2B /* LRadioGroup.cp */; };
+		ABB76A8C0989BBD4002D66AB /* LPrintout.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502EA09885EC800E59A2B /* LPrintout.cp */; };
+		ABB76A8D0989BBD4002D66AB /* LPPobView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D409847E0A00C810AB /* LPPobView.cp */; };
+		ABB76A8E0989BBD4002D66AB /* LPlaceHolder.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E909885EC800E59A2B /* LPlaceHolder.cp */; };
+		ABB76A8F0989BBD4002D66AB /* LPicture.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E809885EC800E59A2B /* LPicture.cp */; };
+		ABB76A900989BBD4002D66AB /* LPeriodical.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E709885EC800E59A2B /* LPeriodical.cp */; };
+		ABB76A910989BBD4002D66AB /* LPane.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E609885EC800E59A2B /* LPane.cp */; };
+		ABB76A920989BBD4002D66AB /* LOverlappingView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E509885EC800E59A2B /* LOverlappingView.cp */; };
+		ABB76A940989BBD4002D66AB /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB7A9903092C2474009B5D0B /* log.cpp */; };
+		ABB76A950989BBD4002D66AB /* LModelProperty.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047B09886AC500E59A2B /* LModelProperty.cp */; };
+		ABB76A960989BBD4002D66AB /* LModelObject.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E409885EC800E59A2B /* LModelObject.cp */; };
+		ABB76A970989BBD4002D66AB /* LModelDirector.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047A09886AC500E59A2B /* LModelDirector.cp */; };
+		ABB76A980989BBD4002D66AB /* LMenuController.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E309885EC800E59A2B /* LMenuController.cp */; };
+		ABB76A990989BBD4002D66AB /* LMenuBar.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E209885EC800E59A2B /* LMenuBar.cp */; };
+		ABB76A9A0989BBD4002D66AB /* LMenu.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E109885EC800E59A2B /* LMenu.cp */; };
+		ABB76A9B0989BBD4002D66AB /* LListener.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502E009885EC800E59A2B /* LListener.cp */; };
+		ABB76A9C0989BBD4002D66AB /* LIconPane.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DF09885EC800E59A2B /* LIconPane.cp */; };
+		ABB76A9D0989BBD4002D66AB /* LHandleStream.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047909886AC500E59A2B /* LHandleStream.cp */; };
+		ABB76A9E0989BBD4002D66AB /* LGrowZone.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DE09885EC800E59A2B /* LGrowZone.cp */; };
+		ABB76A9F0989BBD4002D66AB /* LGroupBox.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DD09885EC800E59A2B /* LGroupBox.cp */; };
+		ABB76AA00989BBD4002D66AB /* LGATitleMixin.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DC09885EC800E59A2B /* LGATitleMixin.cp */; };
+		ABB76AA10989BBD4002D66AB /* LGAPictureMixin.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DB09885EC800E59A2B /* LGAPictureMixin.cp */; };
+		ABB76AA20989BBD4002D66AB /* LGAIconSuiteMixin.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502DA09885EC800E59A2B /* LGAIconSuiteMixin.cp */; };
+		ABB76AA30989BBD4002D66AB /* LGAControlImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D909885EC800E59A2B /* LGAControlImp.cp */; };
+		ABB76AA40989BBD4002D66AB /* LGACIconMixin.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D809885EC800E59A2B /* LGACIconMixin.cp */; };
+		ABB76AA50989BBD4002D66AB /* LGABevelButtonImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D709885EC800E59A2B /* LGABevelButtonImp.cp */; };
+		ABB76AA60989BBD4002D66AB /* LFileTypeList.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D609885EC800E59A2B /* LFileTypeList.cp */; };
+		ABB76AA70989BBD4002D66AB /* LFileStream.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D509885EC800E59A2B /* LFileStream.cp */; };
+		ABB76AA80989BBD4002D66AB /* LFile.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D409885EC800E59A2B /* LFile.cp */; };
+		ABB76AA90989BBD4002D66AB /* LException.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D309885EC800E59A2B /* LException.cp */; };
+		ABB76AAA0989BBD4002D66AB /* LEventHandler.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D209885EC800E59A2B /* LEventHandler.cp */; };
+		ABB76AAB0989BBD4002D66AB /* LEditField.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502D009885EC800E59A2B /* LEditField.cp */; };
+		ABB76AAC0989BBD4002D66AB /* LDocument.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CF09885EC800E59A2B /* LDocument.cp */; };
+		ABB76AAD0989BBD4002D66AB /* LDocApplication.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CE09885EC800E59A2B /* LDocApplication.cp */; };
+		ABB76AAE0989BBD4002D66AB /* LDialogBox.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CD09885EC800E59A2B /* LDialogBox.cp */; };
+		ABB76AAF0989BBD4002D66AB /* LDataStream.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB55047809886AC500E59A2B /* LDataStream.cp */; };
+		ABB76AB00989BBD4002D66AB /* LCursor.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D309847E0A00C810AB /* LCursor.cp */; };
+		ABB76AB10989BBD4002D66AB /* LControlPane.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CC09885EC800E59A2B /* LControlPane.cp */; };
+		ABB76AB20989BBD4002D66AB /* LControlImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CB09885EC800E59A2B /* LControlImp.cp */; };
+		ABB76AB30989BBD4002D66AB /* LControl.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502CA09885EC800E59A2B /* LControl.cp */; };
+		ABB76AB40989BBD4002D66AB /* LComparator.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C909885EC800E59A2B /* LComparator.cp */; };
+		ABB76AB50989BBD4002D66AB /* LCommander.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C809885EC800E59A2B /* LCommander.cp */; };
+		ABB76AB60989BBD4002D66AB /* LCicnButton.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C709885EC800E59A2B /* LCicnButton.cp */; };
+		ABB76AB70989BBD4002D66AB /* LCaption.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C609885EC800E59A2B /* LCaption.cp */; };
+		ABB76AB80989BBD4002D66AB /* LButton.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C509885EC800E59A2B /* LButton.cp */; };
+		ABB76AB90989BBD4002D66AB /* LBroadcaster.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C409885EC800E59A2B /* LBroadcaster.cp */; };
+		ABB76ABA0989BBD4002D66AB /* LBevelButton.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C309885EC800E59A2B /* LBevelButton.cp */; };
+		ABB76ABB0989BBD4002D66AB /* LAttachment.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C209885EC800E59A2B /* LAttachment.cp */; };
+		ABB76ABC0989BBD4002D66AB /* LAttachable.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C109885EC800E59A2B /* LAttachable.cp */; };
+		ABB76ABD0989BBD4002D66AB /* LArrayIterator.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502C009885EC800E59A2B /* LArrayIterator.cp */; };
+		ABB76ABE0989BBD4002D66AB /* LArray.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BF09885EC800E59A2B /* LArray.cp */; };
+		ABB76ABF0989BBD4002D66AB /* LApplication.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BE09885EC800E59A2B /* LApplication.cp */; };
+		ABB76AC00989BBD4002D66AB /* LAnimateCursor.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D209847E0A00C810AB /* LAnimateCursor.cp */; };
+		ABB76AC10989BBD4002D66AB /* LangModule.c in Sources */ = {isa = PBXBuildFile; fileRef = AB9142F109847EC200C810AB /* LangModule.c */; };
+		ABB76AC20989BBD4002D66AB /* LAMControlImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BD09885EC800E59A2B /* LAMControlImp.cp */; };
+		ABB76AC30989BBD4002D66AB /* LAMBevelButtonImp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BC09885EC800E59A2B /* LAMBevelButtonImp.cp */; };
+		ABB76AC40989BBD4002D66AB /* LActiveScroller.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BB09885EC800E59A2B /* LActiveScroller.cp */; };
+		ABB76AC50989BBD4002D66AB /* LAction.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5502BA09885EC800E59A2B /* LAction.cp */; };
+		ABB76AC60989BBD4002D66AB /* InternetInfo.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D109847E0A00C810AB /* InternetInfo.cp */; };
+		ABB76AC70989BBD4002D66AB /* GenericUtilsUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142F009847EC200C810AB /* GenericUtilsUI.cpp */; };
+		ABB76AC90989BBD4002D66AB /* GenericUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1CC090B2CB90048AA26 /* GenericUtils.cpp */; };
+		ABB76ACA0989BBD4002D66AB /* GalacticaWMgr20Desktop.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB91421D0983F10C00C810AB /* GalacticaWMgr20Desktop.cp */; };
+		ABB76ACB0989BBD4002D66AB /* GalacticaUtilsUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91421C0983F10C00C810AB /* GalacticaUtilsUI.cpp */; };
+		ABB76ACC0989BBD4002D66AB /* GalacticaUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E130090B1FAD0048AA26 /* GalacticaUtils.cpp */; };
+		ABB76ACD0989BBD4002D66AB /* GalacticaTutorial.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB91421B0983F10C00C810AB /* GalacticaTutorial.cp */; };
+		ABB76ACE0989BBD4002D66AB /* GalacticaTextTraits.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB91421A0983F10B00C810AB /* GalacticaTextTraits.cp */; };
+		ABB76ACF0989BBD4002D66AB /* GalacticaTables.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142190983F10B00C810AB /* GalacticaTables.cp */; };
+		ABB76AD00989BBD4002D66AB /* GalacticaSingleDoc.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142180983F10B00C810AB /* GalacticaSingleDoc.cp */; };
+		ABB76AD10989BBD4002D66AB /* GalacticaSharedUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142170983F10B00C810AB /* GalacticaSharedUI.cpp */; };
+		ABB76AD30989BBD4002D66AB /* GalacticaShared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E12E090B1FAD0048AA26 /* GalacticaShared.cpp */; };
+		ABB76AD50989BBD4002D66AB /* GalacticaRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E18D090B28700048AA26 /* GalacticaRegistration.cpp */; };
+		ABB76AD70989BBD4002D66AB /* GalacticaProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E12C090B1FAD0048AA26 /* GalacticaProcessor.cpp */; };
+		ABB76AD80989BBD4002D66AB /* GalacticaPanes.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142160983F10B00C810AB /* GalacticaPanes.cp */; };
+		ABB76AD90989BBD4002D66AB /* GalacticaPanels.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142150983F10B00C810AB /* GalacticaPanels.cp */; };
+		ABB76ADB0989BBD4002D66AB /* GalacticaPackets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E12A090B1FAD0048AA26 /* GalacticaPackets.cpp */; };
+		ABB76ADC0989BBD4002D66AB /* GalacticaKeys.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142140983F10B00C810AB /* GalacticaKeys.cp */; };
+		ABB76ADD0989BBD4002D66AB /* GalacticaHostDoc.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142130983F10B00C810AB /* GalacticaHostDoc.cp */; };
+		ABB76ADF0989BBD4002D66AB /* GalacticaHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E128090B1FAD0048AA26 /* GalacticaHost.cpp */; };
+		ABB76AE10989BBD4002D66AB /* GalacticaEventDispatcher.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142120983F10B00C810AB /* GalacticaEventDispatcher.cp */; };
+		ABB76AE20989BBD4002D66AB /* GalacticaDoc.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142110983F10B00C810AB /* GalacticaDoc.cp */; };
+		ABB76AE40989BBD4002D66AB /* GalacticaClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142100983F10B00C810AB /* GalacticaClient.cpp */; };
+		ABB76AE60989BBD4002D66AB /* Galactica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E189090B28700048AA26 /* Galactica.cpp */; };
+		ABB76AE70989BBD4002D66AB /* FullPath.c in Sources */ = {isa = PBXBuildFile; fileRef = AB5503B20988666B00E59A2B /* FullPath.c */; };
+		ABB76AE90989BBD4002D66AB /* DebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1CA090B2CB90048AA26 /* DebugMacros.cpp */; };
+		ABB76AEC0989BBD4002D66AB /* CZoomView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E709847E7000C810AB /* CZoomView.cp */; };
+		ABB76AED0989BBD4002D66AB /* CWindowMenu.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142D009847E0A00C810AB /* CWindowMenu.cp */; };
+		ABB76AEF0989BBD4002D66AB /* CVarDataFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1AC090B2A000048AA26 /* CVarDataFile.cpp */; };
+		ABB76AF00989BBD4002D66AB /* CThingyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E127090B1FAD0048AA26 /* CThingyList.cpp */; };
+		ABB76AF10989BBD4002D66AB /* CTextTable.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E609847E7000C810AB /* CTextTable.cp */; };
+		ABB76AF20989BBD4002D66AB /* CSystemInfoLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420F0983F10B00C810AB /* CSystemInfoLine.cpp */; };
+		ABB76AF30989BBD4002D66AB /* CSummaryLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420E0983F10B00C810AB /* CSummaryLine.cpp */; };
+		ABB76AF40989BBD4002D66AB /* CStyledText.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E509847E7000C810AB /* CStyledText.cp */; };
+		ABB76AF50989BBD4002D66AB /* CStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E170090B27050048AA26 /* CStar.cpp */; };
+		ABB76AF60989BBD4002D66AB /* CShipCompMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E126090B1FAD0048AA26 /* CShipCompMove.cpp */; };
+		ABB76AF80989BBD4002D66AB /* CShip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E16E090B27050048AA26 /* CShip.cpp */; };
+		ABB76AF90989BBD4002D66AB /* CScrollWheelHandler.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB5504A209886C3A00E59A2B /* CScrollWheelHandler.cp */; };
+		ABB76AFA0989BBD4002D66AB /* CScrollingPict.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E409847E7000C810AB /* CScrollingPict.cp */; };
+		ABB76AFB0989BBD4002D66AB /* CResCaption.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E309847E7000C810AB /* CResCaption.cp */; };
+		ABB76AFD0989BBD4002D66AB /* CRendezvous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E16C090B27050048AA26 /* CRendezvous.cpp */; };
+		ABB76B000989BBD4002D66AB /* config-macosx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB7A9905092C2494009B5D0B /* config-macosx.cpp */; };
+		ABB76B010989BBD4002D66AB /* CNewGWorld.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142FB09847FF500C810AB /* CNewGWorld.cp */; };
+		ABB76B020989BBD4002D66AB /* CMouseTracker.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142FA09847FF500C810AB /* CMouseTracker.cp */; };
+		ABB76B040989BBD4002D66AB /* CMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E16A090B27050048AA26 /* CMessage.cpp */; };
+		ABB76B050989BBD4002D66AB /* CMemStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB55049A09886B9800E59A2B /* CMemStream.cpp */; };
+		ABB76B070989BBD4002D66AB /* CMasterIndexFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1AA090B2A000048AA26 /* CMasterIndexFile.cpp */; };
+		ABB76B080989BBD4002D66AB /* CLayeredOffscreenView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E209847E7000C810AB /* CLayeredOffscreenView.cp */; };
+		ABB76B090989BBD4002D66AB /* CKeyCmdAttach.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E109847E7000C810AB /* CKeyCmdAttach.cp */; };
+		ABB76B0A0989BBD4002D66AB /* CHelpAttach.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142E009847E7000C810AB /* CHelpAttach.cp */; };
+		ABB76B0B0989BBD4002D66AB /* CGameSetupAttach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420D0983F10B00C810AB /* CGameSetupAttach.cpp */; };
+		ABB76B0C0989BBD4002D66AB /* CGalacticSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420C0983F10B00C810AB /* CGalacticSlider.cpp */; };
+		ABB76B0D0989BBD4002D66AB /* CFleetInfoLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420B0983F10B00C810AB /* CFleetInfoLine.cpp */; };
+		ABB76B0F0989BBD4002D66AB /* CFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E168090B27050048AA26 /* CFleet.cpp */; };
+		ABB76B100989BBD4002D66AB /* CFileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB55049D09886BAE00E59A2B /* CFileStream.cpp */; };
+		ABB76B110989BBD4002D66AB /* CEndpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E11F090B1EB00048AA26 /* CEndpoint.cpp */; };
+		ABB76B120989BBD4002D66AB /* CDividedView.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142CF09847E0A00C810AB /* CDividedView.cp */; };
+		ABB76B140989BBD4002D66AB /* CDeleteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1A8090B2A000048AA26 /* CDeleteList.cpp */; };
+		ABB76B160989BBD4002D66AB /* CDataFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1A6090B2A000048AA26 /* CDataFile.cpp */; };
+		ABB76B170989BBD4002D66AB /* CChangePlayerAttach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB91420A0983F10B00C810AB /* CChangePlayerAttach.cpp */; };
+		ABB76B180989BBD4002D66AB /* CBalloonApp.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142CE09847E0A00C810AB /* CBalloonApp.cp */; };
+		ABB76B190989BBD4002D66AB /* CActiveScrollerControl.cp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142CC09847DA500C810AB /* CActiveScrollerControl.cp */; };
+		ABB76B1B0989BBD4002D66AB /* ANamedThingy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E11D090B1EB00048AA26 /* ANamedThingy.cpp */; };
+		ABB76B1D0989BBD4002D66AB /* AMasterIndexable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1A4090B2A000048AA26 /* AMasterIndexable.cpp */; };
+		ABB76B1F0989BBD4002D66AB /* AMasterIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1A2090B2A000048AA26 /* AMasterIndex.cpp */; };
+		ABB76B200989BBD4002D66AB /* AGalacticThingyUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB9142090983F10B00C810AB /* AGalacticThingyUI.cpp */; };
+		ABB76B220989BBD4002D66AB /* AGalacticThingy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB0FF2B5090ADBE9004292BD /* AGalacticThingy.cpp */; };
+		ABB76B240989BBD4002D66AB /* ADataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E1A0090B2A000048AA26 /* ADataStore.cpp */; };
+		ABB76CF70989BE39002D66AB /* OpenPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7A9962092C2F5B009B5D0B /* OpenPlay.framework */; };
+		ABB76D010989BEF2002D66AB /* OpenPlay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB7A9962092C2F5B009B5D0B /* OpenPlay.framework */; };
+		ABB76D1F098A47F1002D66AB /* Buttons.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D1D098A47F1002D66AB /* Buttons.rsrc */; };
+		ABB76D20098A47F1002D66AB /* DebugMode.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D1E098A47F1002D66AB /* DebugMode.rsrc */; };
+		ABB76D29098A4808002D66AB /* Galactica_Non_Module.PPob in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D23098A4808002D66AB /* Galactica_Non_Module.PPob */; };
+		ABB76D2A098A4808002D66AB /* Galactica.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D24098A4808002D66AB /* Galactica.rsrc */; };
+		ABB76D2B098A4808002D66AB /* GalacticaCarbon.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D25098A4808002D66AB /* GalacticaCarbon.rsrc */; };
+		ABB76D2C098A4808002D66AB /* GalacticaSounds.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D26098A4808002D66AB /* GalacticaSounds.rsrc */; };
+		ABB76D2D098A4808002D66AB /* Help.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D27098A4808002D66AB /* Help.rsrc */; };
+		ABB76D2E098A4808002D66AB /* version.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = ABB76D28098A4808002D66AB /* version.rsrc */; };
+		ABB76D3A098A4996002D66AB /* Galactica.icns in Resources */ = {isa = PBXBuildFile; fileRef = ABB76D39098A4996002D66AB /* Galactica.icns */; };
+		ABF0394C09951D3A0016A5B4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF0394B09951D3A0016A5B4 /* Carbon.framework */; };
+		ABF039510995205E0016A5B4 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF039500995205E0016A5B4 /* QuickTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB76D000989BEE3002D66AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABB76D010989BEF2002D66AB /* OpenPlay.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB06540009944F7800BFEA7A /* LScrollerView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LScrollerView.cp; path = ../FlatPowerPlant/src/LScrollerView.cp; sourceTree = SOURCE_ROOT; };
+		AB06540C099451F500BFEA7A /* LScrollBar.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LScrollBar.cp; path = ../FlatPowerPlant/src/LScrollBar.cp; sourceTree = SOURCE_ROOT; };
+		AB0FF2B5090ADBE9004292BD /* AGalacticThingy.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AGalacticThingy.cpp; path = Classes/AGalacticThingy.cpp; sourceTree = "<group>"; };
+		AB5502BA09885EC800E59A2B /* LAction.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAction.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAction.cp; sourceTree = "<absolute>"; };
+		AB5502BB09885EC800E59A2B /* LActiveScroller.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LActiveScroller.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LActiveScroller.cp; sourceTree = "<absolute>"; };
+		AB5502BC09885EC800E59A2B /* LAMBevelButtonImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAMBevelButtonImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAMBevelButtonImp.cp; sourceTree = "<absolute>"; };
+		AB5502BD09885EC800E59A2B /* LAMControlImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAMControlImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAMControlImp.cp; sourceTree = "<absolute>"; };
+		AB5502BE09885EC800E59A2B /* LApplication.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LApplication.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LApplication.cp; sourceTree = "<absolute>"; };
+		AB5502BF09885EC800E59A2B /* LArray.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LArray.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LArray.cp; sourceTree = "<absolute>"; };
+		AB5502C009885EC800E59A2B /* LArrayIterator.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LArrayIterator.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LArrayIterator.cp; sourceTree = "<absolute>"; };
+		AB5502C109885EC800E59A2B /* LAttachable.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAttachable.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAttachable.cp; sourceTree = "<absolute>"; };
+		AB5502C209885EC800E59A2B /* LAttachment.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAttachment.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAttachment.cp; sourceTree = "<absolute>"; };
+		AB5502C309885EC800E59A2B /* LBevelButton.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LBevelButton.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LBevelButton.cp; sourceTree = "<absolute>"; };
+		AB5502C409885EC800E59A2B /* LBroadcaster.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LBroadcaster.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LBroadcaster.cp; sourceTree = "<absolute>"; };
+		AB5502C509885EC800E59A2B /* LButton.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LButton.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LButton.cp; sourceTree = "<absolute>"; };
+		AB5502C609885EC800E59A2B /* LCaption.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LCaption.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCaption.cp; sourceTree = "<absolute>"; };
+		AB5502C709885EC800E59A2B /* LCicnButton.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LCicnButton.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCicnButton.cp; sourceTree = "<absolute>"; };
+		AB5502C809885EC800E59A2B /* LCommander.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LCommander.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCommander.cp; sourceTree = "<absolute>"; };
+		AB5502C909885EC800E59A2B /* LComparator.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LComparator.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LComparator.cp; sourceTree = "<absolute>"; };
+		AB5502CA09885EC800E59A2B /* LControl.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LControl.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControl.cp; sourceTree = "<absolute>"; };
+		AB5502CB09885EC800E59A2B /* LControlImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LControlImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControlImp.cp; sourceTree = "<absolute>"; };
+		AB5502CC09885EC800E59A2B /* LControlPane.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LControlPane.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControlPane.cp; sourceTree = "<absolute>"; };
+		AB5502CD09885EC800E59A2B /* LDialogBox.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LDialogBox.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDialogBox.cp; sourceTree = "<absolute>"; };
+		AB5502CE09885EC800E59A2B /* LDocApplication.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LDocApplication.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDocApplication.cp; sourceTree = "<absolute>"; };
+		AB5502CF09885EC800E59A2B /* LDocument.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LDocument.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDocument.cp; sourceTree = "<absolute>"; };
+		AB5502D009885EC800E59A2B /* LEditField.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LEditField.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LEditField.cp; sourceTree = "<absolute>"; };
+		AB5502D209885EC800E59A2B /* LEventHandler.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LEventHandler.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LEventHandler.cp; sourceTree = "<absolute>"; };
+		AB5502D309885EC800E59A2B /* LException.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LException.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LException.cp; sourceTree = "<absolute>"; };
+		AB5502D409885EC800E59A2B /* LFile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LFile.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFile.cp; sourceTree = "<absolute>"; };
+		AB5502D509885EC800E59A2B /* LFileStream.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LFileStream.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFileStream.cp; sourceTree = "<absolute>"; };
+		AB5502D609885EC800E59A2B /* LFileTypeList.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LFileTypeList.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFileTypeList.cp; sourceTree = "<absolute>"; };
+		AB5502D709885EC800E59A2B /* LGABevelButtonImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGABevelButtonImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGABevelButtonImp.cp; sourceTree = "<absolute>"; };
+		AB5502D809885EC800E59A2B /* LGACIconMixin.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGACIconMixin.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGACIconMixin.cp; sourceTree = "<absolute>"; };
+		AB5502D909885EC800E59A2B /* LGAControlImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGAControlImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAControlImp.cp; sourceTree = "<absolute>"; };
+		AB5502DA09885EC800E59A2B /* LGAIconSuiteMixin.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGAIconSuiteMixin.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAIconSuiteMixin.cp; sourceTree = "<absolute>"; };
+		AB5502DB09885EC800E59A2B /* LGAPictureMixin.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGAPictureMixin.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAPictureMixin.cp; sourceTree = "<absolute>"; };
+		AB5502DC09885EC800E59A2B /* LGATitleMixin.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGATitleMixin.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGATitleMixin.cp; sourceTree = "<absolute>"; };
+		AB5502DD09885EC800E59A2B /* LGroupBox.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGroupBox.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGroupBox.cp; sourceTree = "<absolute>"; };
+		AB5502DE09885EC800E59A2B /* LGrowZone.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LGrowZone.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGrowZone.cp; sourceTree = "<absolute>"; };
+		AB5502DF09885EC800E59A2B /* LIconPane.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LIconPane.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LIconPane.cp; sourceTree = "<absolute>"; };
+		AB5502E009885EC800E59A2B /* LListener.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LListener.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LListener.cp; sourceTree = "<absolute>"; };
+		AB5502E109885EC800E59A2B /* LMenu.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LMenu.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenu.cp; sourceTree = "<absolute>"; };
+		AB5502E209885EC800E59A2B /* LMenuBar.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LMenuBar.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenuBar.cp; sourceTree = "<absolute>"; };
+		AB5502E309885EC800E59A2B /* LMenuController.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LMenuController.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenuController.cp; sourceTree = "<absolute>"; };
+		AB5502E409885EC800E59A2B /* LModelObject.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LModelObject.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelObject.cp; sourceTree = "<absolute>"; };
+		AB5502E509885EC800E59A2B /* LOverlappingView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LOverlappingView.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LOverlappingView.cp; sourceTree = "<absolute>"; };
+		AB5502E609885EC800E59A2B /* LPane.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPane.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPane.cp; sourceTree = "<absolute>"; };
+		AB5502E709885EC800E59A2B /* LPeriodical.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPeriodical.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPeriodical.cp; sourceTree = "<absolute>"; };
+		AB5502E809885EC800E59A2B /* LPicture.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPicture.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPicture.cp; sourceTree = "<absolute>"; };
+		AB5502E909885EC800E59A2B /* LPlaceHolder.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPlaceHolder.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPlaceHolder.cp; sourceTree = "<absolute>"; };
+		AB5502EA09885EC800E59A2B /* LPrintout.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPrintout.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPrintout.cp; sourceTree = "<absolute>"; };
+		AB5502EB09885EC800E59A2B /* LRadioGroup.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LRadioGroup.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LRadioGroup.cp; sourceTree = "<absolute>"; };
+		AB5502EC09885EC800E59A2B /* LScroller.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LScroller.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LScroller.cp; sourceTree = "<absolute>"; };
+		AB5502ED09885EC800E59A2B /* LSingleDoc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LSingleDoc.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LSingleDoc.cp; sourceTree = "<absolute>"; };
+		AB5502EE09885EC800E59A2B /* LStdControl.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LStdControl.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStdControl.cp; sourceTree = "<absolute>"; };
+		AB5502EF09885EC800E59A2B /* LStdControlImp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LStdControlImp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStdControlImp.cp; sourceTree = "<absolute>"; };
+		AB5502F009885EC800E59A2B /* LStream.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LStream.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStream.cp; sourceTree = "<absolute>"; };
+		AB5502F109885EC800E59A2B /* LString.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LString.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LString.cp; sourceTree = "<absolute>"; };
+		AB5502F209885EC800E59A2B /* LTabGroup.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTabGroup.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTabGroup.cp; sourceTree = "<absolute>"; };
+		AB5502F309885EC800E59A2B /* LTable.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTable.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTable.cp; sourceTree = "<absolute>"; };
+		AB5502F409885EC800E59A2B /* LTextButton.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTextButton.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTextButton.cp; sourceTree = "<absolute>"; };
+		AB5502F509885EC800E59A2B /* LTextEditView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTextEditView.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTextEditView.cp; sourceTree = "<absolute>"; };
+		AB5502F609885EC800E59A2B /* LTimerTask.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTimerTask.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTimerTask.cp; sourceTree = "<absolute>"; };
+		AB5502F709885EC800E59A2B /* LToggleButton.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LToggleButton.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LToggleButton.cp; sourceTree = "<absolute>"; };
+		AB5502F809885EC800E59A2B /* LView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LView.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LView.cp; sourceTree = "<absolute>"; };
+		AB5502F909885EC800E59A2B /* LWindow.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LWindow.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LWindow.cp; sourceTree = "<absolute>"; };
+		AB5502FA09885EC800E59A2B /* PP_Constants.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PP_Constants.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/PP_Constants.cp; sourceTree = "<absolute>"; };
+		AB5502FB09885EC800E59A2B /* UAppleEventsMgr.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UAppleEventsMgr.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAppleEventsMgr.cp; sourceTree = "<absolute>"; };
+		AB5502FC09885EC800E59A2B /* UAttachments.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UAttachments.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAttachments.cp; sourceTree = "<absolute>"; };
+		AB5502FD09885EC800E59A2B /* UCursor.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UCursor.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UCursor.cp; sourceTree = "<absolute>"; };
+		AB5502FE09885EC800E59A2B /* UDebugging.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UDebugging.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDebugging.cp; sourceTree = "<absolute>"; };
+		AB5502FF09885EC800E59A2B /* UDrawingState.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UDrawingState.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDrawingState.cp; sourceTree = "<absolute>"; };
+		AB55030009885EC800E59A2B /* UDrawingUtils.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UDrawingUtils.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDrawingUtils.cp; sourceTree = "<absolute>"; };
+		AB55030109885EC800E59A2B /* UEnvironment.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UEnvironment.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UEnvironment.cp; sourceTree = "<absolute>"; };
+		AB55030209885EC800E59A2B /* UException.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UException.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UException.cp; sourceTree = "<absolute>"; };
+		AB55030309885EC800E59A2B /* UGraphicUtils.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UGraphicUtils.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGraphicUtils.cp; sourceTree = "<absolute>"; };
+		AB55030409885EC800E59A2B /* UGWorld.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UGWorld.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGWorld.cp; sourceTree = "<absolute>"; };
+		AB55030509885EC800E59A2B /* UKeyFilters.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UKeyFilters.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UKeyFilters.cp; sourceTree = "<absolute>"; };
+		AB55030609885EC800E59A2B /* UMemoryMgr.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UMemoryMgr.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UMemoryMgr.cp; sourceTree = "<absolute>"; };
+		AB55030709885EC800E59A2B /* UModalDialogs.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UModalDialogs.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UModalDialogs.cp; sourceTree = "<absolute>"; };
+		AB55030809885EC800E59A2B /* UNavServicesDialogs.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UNavServicesDialogs.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UNavServicesDialogs.cp; sourceTree = "<absolute>"; };
+		AB55030909885EC800E59A2B /* UPrinting.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UPrinting.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UPrinting.cp; sourceTree = "<absolute>"; };
+		AB55030A09885EC800E59A2B /* UReanimator.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UReanimator.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UReanimator.cp; sourceTree = "<absolute>"; };
+		AB55030B09885EC800E59A2B /* URegions.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = URegions.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/URegions.cp; sourceTree = "<absolute>"; };
+		AB55030C09885EC800E59A2B /* URegistrar.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = URegistrar.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/URegistrar.cp; sourceTree = "<absolute>"; };
+		AB55030D09885EC800E59A2B /* UScreenPort.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UScreenPort.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UScreenPort.cp; sourceTree = "<absolute>"; };
+		AB55030E09885EC800E59A2B /* UTEViewTextAction.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UTEViewTextAction.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UTEViewTextAction.cp; sourceTree = "<absolute>"; };
+		AB55031009885EC800E59A2B /* UWindows.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UWindows.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UWindows.cp; sourceTree = "<absolute>"; };
+		AB5503B20988666B00E59A2B /* FullPath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FullPath.c; path = "Classes/3rd Party/FullPath.c"; sourceTree = "<group>"; };
+		AB55047809886AC500E59A2B /* LDataStream.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LDataStream.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDataStream.cp; sourceTree = "<absolute>"; };
+		AB55047909886AC500E59A2B /* LHandleStream.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LHandleStream.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LHandleStream.cp; sourceTree = "<absolute>"; };
+		AB55047A09886AC500E59A2B /* LModelDirector.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LModelDirector.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelDirector.cp; sourceTree = "<absolute>"; };
+		AB55047B09886AC500E59A2B /* LModelProperty.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LModelProperty.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelProperty.cp; sourceTree = "<absolute>"; };
+		AB55047C09886AC500E59A2B /* LTimerTaskFunctor.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LTimerTaskFunctor.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTimerTaskFunctor.cp; sourceTree = "<absolute>"; };
+		AB55047D09886AC500E59A2B /* LUndoer.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LUndoer.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/LUndoer.cp; sourceTree = "<absolute>"; };
+		AB55047E09886AC500E59A2B /* UAppearance.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UAppearance.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAppearance.cp; sourceTree = "<absolute>"; };
+		AB55047F09886AC500E59A2B /* UGAColorRamp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UGAColorRamp.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGAColorRamp.cp; sourceTree = "<absolute>"; };
+		AB55048009886AC500E59A2B /* UScrap.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UScrap.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UScrap.cp; sourceTree = "<absolute>"; };
+		AB55048A09886B3100E59A2B /* UExtractFromAEDesc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UExtractFromAEDesc.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UExtractFromAEDesc.cp; sourceTree = "<absolute>"; };
+		AB55048B09886B3100E59A2B /* UProcessMgr.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UProcessMgr.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UProcessMgr.cp; sourceTree = "<absolute>"; };
+		AB55048C09886B3100E59A2B /* UTETextAction.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UTETextAction.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UTETextAction.cp; sourceTree = "<absolute>"; };
+		AB55049A09886B9800E59A2B /* CMemStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CMemStream.cpp; path = Classes/CMemStream.cpp; sourceTree = "<group>"; };
+		AB55049D09886BAE00E59A2B /* CFileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CFileStream.cpp; path = Classes/CFileStream.cpp; sourceTree = "<group>"; };
+		AB5504A209886C3A00E59A2B /* CScrollWheelHandler.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CScrollWheelHandler.cp; path = "Classes/3rd Party/CScrollWheelHandler.cp"; sourceTree = "<group>"; };
+		AB5504AA09886DA800E59A2B /* UControlMgr.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UControlMgr.cp; path = /Users/ezavada/Galactica/FlatPowerPlant/src/UControlMgr.cp; sourceTree = "<absolute>"; };
+		AB749B4F092C3C9800CC7BA6 /* os-macosx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = "os-macosx.cpp"; path = "/Users/ezavada/Galactica/framework/src/sys/macosx/os-macosx.cpp"; sourceTree = "<absolute>"; };
+		AB7A9903092C2474009B5D0B /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = log.cpp; path = /Users/ezavada/Galactica/framework/src/sys/log.cpp; sourceTree = "<absolute>"; };
+		AB7A9905092C2494009B5D0B /* config-macosx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = "config-macosx.cpp"; path = "/Users/ezavada/Galactica/framework/src/sys/macosx/config-macosx.cpp"; sourceTree = "<absolute>"; };
+		AB7A9933092C293D009B5D0B /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = config.h; path = /Users/ezavada/Galactica/framework/inc/pdg/sys/config.h; sourceTree = "<absolute>"; };
+		AB7A9934092C293D009B5D0B /* log.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = log.h; path = /Users/ezavada/Galactica/framework/inc/pdg/sys/log.h; sourceTree = "<absolute>"; };
+		AB7A9935092C293D009B5D0B /* mutex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = /Users/ezavada/Galactica/framework/inc/pdg/sys/mutex.h; sourceTree = "<absolute>"; };
+		AB7A9936092C293D009B5D0B /* platform.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = platform.h; path = /Users/ezavada/Galactica/framework/inc/pdg/sys/platform.h; sourceTree = "<absolute>"; };
+		AB7A9937092C293D009B5D0B /* semaphore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = semaphore.h; path = /Users/ezavada/Galactica/framework/inc/pdg/sys/semaphore.h; sourceTree = "<absolute>"; };
+		AB7A993F092C2994009B5D0B /* config-macosx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "config-macosx.h"; path = "/Users/ezavada/Galactica/framework/src/sys/macosx/config-macosx.h"; sourceTree = "<absolute>"; };
+		AB7A9962092C2F5B009B5D0B /* OpenPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenPlay.framework; path = /Users/ezavada/Galactica/framework/lib/openplay/macosx/release/OpenPlay.framework; sourceTree = "<absolute>"; };
+		AB9142090983F10B00C810AB /* AGalacticThingyUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AGalacticThingyUI.cpp; path = Classes/AGalacticThingyUI.cpp; sourceTree = "<group>"; };
+		AB91420A0983F10B00C810AB /* CChangePlayerAttach.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CChangePlayerAttach.cpp; path = Classes/CChangePlayerAttach.cpp; sourceTree = "<group>"; };
+		AB91420B0983F10B00C810AB /* CFleetInfoLine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CFleetInfoLine.cpp; path = Classes/CFleetInfoLine.cpp; sourceTree = "<group>"; };
+		AB91420C0983F10B00C810AB /* CGalacticSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CGalacticSlider.cpp; path = Classes/CGalacticSlider.cpp; sourceTree = "<group>"; };
+		AB91420D0983F10B00C810AB /* CGameSetupAttach.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CGameSetupAttach.cpp; path = Classes/CGameSetupAttach.cpp; sourceTree = "<group>"; };
+		AB91420E0983F10B00C810AB /* CSummaryLine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CSummaryLine.cpp; path = Classes/CSummaryLine.cpp; sourceTree = "<group>"; };
+		AB91420F0983F10B00C810AB /* CSystemInfoLine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CSystemInfoLine.cpp; path = Classes/CSystemInfoLine.cpp; sourceTree = "<group>"; };
+		AB9142100983F10B00C810AB /* GalacticaClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaClient.cpp; path = Classes/GalacticaClient.cpp; sourceTree = "<group>"; };
+		AB9142110983F10B00C810AB /* GalacticaDoc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaDoc.cp; path = Classes/GalacticaDoc.cp; sourceTree = "<group>"; };
+		AB9142120983F10B00C810AB /* GalacticaEventDispatcher.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaEventDispatcher.cp; path = Classes/GalacticaEventDispatcher.cp; sourceTree = "<group>"; };
+		AB9142130983F10B00C810AB /* GalacticaHostDoc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaHostDoc.cp; path = Classes/GalacticaHostDoc.cp; sourceTree = "<group>"; };
+		AB9142140983F10B00C810AB /* GalacticaKeys.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaKeys.cp; path = Classes/GalacticaKeys.cp; sourceTree = "<group>"; };
+		AB9142150983F10B00C810AB /* GalacticaPanels.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaPanels.cp; path = Classes/GalacticaPanels.cp; sourceTree = "<group>"; };
+		AB9142160983F10B00C810AB /* GalacticaPanes.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaPanes.cp; path = Classes/GalacticaPanes.cp; sourceTree = "<group>"; };
+		AB9142170983F10B00C810AB /* GalacticaSharedUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaSharedUI.cpp; path = Classes/GalacticaSharedUI.cpp; sourceTree = "<group>"; };
+		AB9142180983F10B00C810AB /* GalacticaSingleDoc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaSingleDoc.cp; path = Classes/GalacticaSingleDoc.cp; sourceTree = "<group>"; };
+		AB9142190983F10B00C810AB /* GalacticaTables.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaTables.cp; path = Classes/GalacticaTables.cp; sourceTree = "<group>"; };
+		AB91421A0983F10B00C810AB /* GalacticaTextTraits.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaTextTraits.cp; path = Classes/GalacticaTextTraits.cp; sourceTree = "<group>"; };
+		AB91421B0983F10C00C810AB /* GalacticaTutorial.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaTutorial.cp; path = Classes/GalacticaTutorial.cp; sourceTree = "<group>"; };
+		AB91421C0983F10C00C810AB /* GalacticaUtilsUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaUtilsUI.cpp; path = Classes/GalacticaUtilsUI.cpp; sourceTree = "<group>"; };
+		AB91421D0983F10C00C810AB /* GalacticaWMgr20Desktop.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaWMgr20Desktop.cp; path = Classes/GalacticaWMgr20Desktop.cp; sourceTree = "<group>"; };
+		AB91421E0983F10C00C810AB /* OrderFormAttach.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = OrderFormAttach.cpp; path = Classes/OrderFormAttach.cpp; sourceTree = "<group>"; };
+		AB9142CC09847DA500C810AB /* CActiveScrollerControl.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CActiveScrollerControl.cp; path = Classes/CActiveScrollerControl.cp; sourceTree = "<group>"; };
+		AB9142CE09847E0A00C810AB /* CBalloonApp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CBalloonApp.cp; path = "Classes/3rd Party/CBalloonApp.cp"; sourceTree = "<group>"; };
+		AB9142CF09847E0A00C810AB /* CDividedView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CDividedView.cp; path = "Classes/3rd Party/CDividedView.cp"; sourceTree = "<group>"; };
+		AB9142D009847E0A00C810AB /* CWindowMenu.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CWindowMenu.cp; path = "Classes/3rd Party/CWindowMenu.cp"; sourceTree = "<group>"; };
+		AB9142D109847E0A00C810AB /* InternetInfo.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = InternetInfo.cp; path = "Classes/3rd Party/InternetInfo.cp"; sourceTree = "<group>"; };
+		AB9142D209847E0A00C810AB /* LAnimateCursor.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LAnimateCursor.cp; path = "Classes/3rd Party/LAnimateCursor.cp"; sourceTree = "<group>"; };
+		AB9142D309847E0A00C810AB /* LCursor.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LCursor.cp; path = "Classes/3rd Party/LCursor.cp"; sourceTree = "<group>"; };
+		AB9142D409847E0A00C810AB /* LPPobView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPPobView.cp; path = "Classes/3rd Party/LPPobView.cp"; sourceTree = "<group>"; };
+		AB9142D509847E0A00C810AB /* LThermometerPane.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LThermometerPane.cp; path = "Classes/3rd Party/LThermometerPane.cp"; sourceTree = "<group>"; };
+		AB9142D609847E0A00C810AB /* Slider.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Slider.cp; path = "Classes/3rd Party/Slider.cp"; sourceTree = "<group>"; };
+		AB9142E009847E7000C810AB /* CHelpAttach.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CHelpAttach.cp; path = Classes/CHelpAttach.cp; sourceTree = "<group>"; };
+		AB9142E109847E7000C810AB /* CKeyCmdAttach.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CKeyCmdAttach.cp; path = Classes/CKeyCmdAttach.cp; sourceTree = "<group>"; };
+		AB9142E209847E7000C810AB /* CLayeredOffscreenView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CLayeredOffscreenView.cp; path = Classes/CLayeredOffscreenView.cp; sourceTree = "<group>"; };
+		AB9142E309847E7000C810AB /* CResCaption.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CResCaption.cp; path = Classes/CResCaption.cp; sourceTree = "<group>"; };
+		AB9142E409847E7000C810AB /* CScrollingPict.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CScrollingPict.cp; path = Classes/CScrollingPict.cp; sourceTree = "<group>"; };
+		AB9142E509847E7000C810AB /* CStyledText.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CStyledText.cp; path = Classes/CStyledText.cp; sourceTree = "<group>"; };
+		AB9142E609847E7000C810AB /* CTextTable.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CTextTable.cp; path = Classes/CTextTable.cp; sourceTree = "<group>"; };
+		AB9142E709847E7000C810AB /* CZoomView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CZoomView.cp; path = Classes/CZoomView.cp; sourceTree = "<group>"; };
+		AB9142F009847EC200C810AB /* GenericUtilsUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GenericUtilsUI.cpp; path = Classes/GenericUtilsUI.cpp; sourceTree = "<group>"; };
+		AB9142F109847EC200C810AB /* LangModule.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = LangModule.c; path = Classes/LangModule.c; sourceTree = "<group>"; };
+		AB9142F209847EC200C810AB /* UNewModalDialogs.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UNewModalDialogs.cp; path = Classes/UNewModalDialogs.cp; sourceTree = "<group>"; };
+		AB9142F309847EC200C810AB /* USound.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = USound.cp; path = Classes/USound.cp; sourceTree = "<group>"; };
+		AB9142FA09847FF500C810AB /* CMouseTracker.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CMouseTracker.cp; path = Classes/CMouseTracker.cp; sourceTree = "<group>"; };
+		AB9142FB09847FF500C810AB /* CNewGWorld.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CNewGWorld.cp; path = Classes/CNewGWorld.cp; sourceTree = "<group>"; };
+		ABA6E11C090B1EB00048AA26 /* AGalacticThingy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AGalacticThingy.h; path = Classes/AGalacticThingy.h; sourceTree = "<group>"; };
+		ABA6E11D090B1EB00048AA26 /* ANamedThingy.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ANamedThingy.cpp; path = Classes/ANamedThingy.cpp; sourceTree = "<group>"; };
+		ABA6E11E090B1EB00048AA26 /* ANamedThingy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ANamedThingy.h; path = Classes/ANamedThingy.h; sourceTree = "<group>"; };
+		ABA6E11F090B1EB00048AA26 /* CEndpoint.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CEndpoint.cpp; path = Classes/CEndpoint.cpp; sourceTree = "<group>"; };
+		ABA6E126090B1FAD0048AA26 /* CShipCompMove.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CShipCompMove.cpp; path = Classes/CShipCompMove.cpp; sourceTree = "<group>"; };
+		ABA6E127090B1FAD0048AA26 /* CThingyList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CThingyList.cpp; path = Classes/CThingyList.cpp; sourceTree = "<group>"; };
+		ABA6E128090B1FAD0048AA26 /* GalacticaHost.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaHost.cpp; path = Classes/GalacticaHost.cpp; sourceTree = "<group>"; };
+		ABA6E129090B1FAD0048AA26 /* GalacticaHost.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaHost.h; path = Classes/GalacticaHost.h; sourceTree = "<group>"; };
+		ABA6E12A090B1FAD0048AA26 /* GalacticaPackets.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaPackets.cpp; path = Classes/GalacticaPackets.cpp; sourceTree = "<group>"; };
+		ABA6E12B090B1FAD0048AA26 /* GalacticaPackets.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaPackets.h; path = Classes/GalacticaPackets.h; sourceTree = "<group>"; };
+		ABA6E12C090B1FAD0048AA26 /* GalacticaProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaProcessor.cpp; path = Classes/GalacticaProcessor.cpp; sourceTree = "<group>"; };
+		ABA6E12D090B1FAD0048AA26 /* GalacticaProcessor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaProcessor.h; path = Classes/GalacticaProcessor.h; sourceTree = "<group>"; };
+		ABA6E12E090B1FAD0048AA26 /* GalacticaShared.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaShared.cpp; path = Classes/GalacticaShared.cpp; sourceTree = "<group>"; };
+		ABA6E12F090B1FAD0048AA26 /* GalacticaShared.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaShared.h; path = Classes/GalacticaShared.h; sourceTree = "<group>"; };
+		ABA6E130090B1FAD0048AA26 /* GalacticaUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaUtils.cpp; path = Classes/GalacticaUtils.cpp; sourceTree = "<group>"; };
+		ABA6E131090B1FAD0048AA26 /* MatchMakerClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MatchMakerClient.cpp; path = Classes/MatchMakerClient.cpp; sourceTree = "<group>"; };
+		ABA6E132090B1FAD0048AA26 /* MatchMakerClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MatchMakerClient.h; path = Classes/MatchMakerClient.h; sourceTree = "<group>"; };
+		ABA6E133090B1FAD0048AA26 /* UShipUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = UShipUtils.cpp; path = Classes/UShipUtils.cpp; sourceTree = "<group>"; };
+		ABA6E134090B1FAD0048AA26 /* UShipUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = UShipUtils.h; path = Classes/UShipUtils.h; sourceTree = "<group>"; };
+		ABA6E168090B27050048AA26 /* CFleet.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CFleet.cpp; path = Classes/CFleet.cpp; sourceTree = "<group>"; };
+		ABA6E169090B27050048AA26 /* CFleet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CFleet.h; path = Classes/CFleet.h; sourceTree = "<group>"; };
+		ABA6E16A090B27050048AA26 /* CMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CMessage.cpp; path = Classes/CMessage.cpp; sourceTree = "<group>"; };
+		ABA6E16B090B27050048AA26 /* CMessage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMessage.h; path = Classes/CMessage.h; sourceTree = "<group>"; };
+		ABA6E16C090B27050048AA26 /* CRendezvous.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CRendezvous.cpp; path = Classes/CRendezvous.cpp; sourceTree = "<group>"; };
+		ABA6E16D090B27050048AA26 /* CRendezvous.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CRendezvous.h; path = Classes/CRendezvous.h; sourceTree = "<group>"; };
+		ABA6E16E090B27050048AA26 /* CShip.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CShip.cpp; path = Classes/CShip.cpp; sourceTree = "<group>"; };
+		ABA6E16F090B27050048AA26 /* CShip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CShip.h; path = Classes/CShip.h; sourceTree = "<group>"; };
+		ABA6E170090B27050048AA26 /* CStar.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CStar.cpp; path = Classes/CStar.cpp; sourceTree = "<group>"; };
+		ABA6E189090B28700048AA26 /* Galactica.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Galactica.cpp; path = Classes/Galactica.cpp; sourceTree = "<group>"; };
+		ABA6E18A090B28700048AA26 /* Galactica.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Galactica.h; path = Classes/Galactica.h; sourceTree = "<group>"; };
+		ABA6E18B090B28700048AA26 /* GalacticaConsts.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaConsts.h; path = Classes/GalacticaConsts.h; sourceTree = "<group>"; };
+		ABA6E18C090B28700048AA26 /* GalacticaGlobals.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaGlobals.h; path = Classes/GalacticaGlobals.h; sourceTree = "<group>"; };
+		ABA6E18D090B28700048AA26 /* GalacticaRegistration.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GalacticaRegistration.cpp; path = Classes/GalacticaRegistration.cpp; sourceTree = "<group>"; };
+		ABA6E18E090B28700048AA26 /* GalacticaRegistration.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GalacticaRegistration.h; path = Classes/GalacticaRegistration.h; sourceTree = "<group>"; };
+		ABA6E1A0090B2A000048AA26 /* ADataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ADataStore.cpp; path = Classes/Database/ADataStore.cpp; sourceTree = "<group>"; };
+		ABA6E1A1090B2A000048AA26 /* ADataStore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ADataStore.h; path = Classes/Database/ADataStore.h; sourceTree = "<group>"; };
+		ABA6E1A2090B2A000048AA26 /* AMasterIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AMasterIndex.cpp; path = Classes/Database/AMasterIndex.cpp; sourceTree = "<group>"; };
+		ABA6E1A3090B2A000048AA26 /* AMasterIndex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AMasterIndex.h; path = Classes/Database/AMasterIndex.h; sourceTree = "<group>"; };
+		ABA6E1A4090B2A000048AA26 /* AMasterIndexable.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AMasterIndexable.cpp; path = Classes/Database/AMasterIndexable.cpp; sourceTree = "<group>"; };
+		ABA6E1A5090B2A000048AA26 /* AMasterIndexable.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AMasterIndexable.h; path = Classes/Database/AMasterIndexable.h; sourceTree = "<group>"; };
+		ABA6E1A6090B2A000048AA26 /* CDataFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CDataFile.cpp; path = Classes/Database/CDataFile.cpp; sourceTree = "<group>"; };
+		ABA6E1A7090B2A000048AA26 /* CDataFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CDataFile.h; path = Classes/Database/CDataFile.h; sourceTree = "<group>"; };
+		ABA6E1A8090B2A000048AA26 /* CDeleteList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CDeleteList.cpp; path = Classes/Database/CDeleteList.cpp; sourceTree = "<group>"; };
+		ABA6E1A9090B2A000048AA26 /* CDeleteList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CDeleteList.h; path = Classes/Database/CDeleteList.h; sourceTree = "<group>"; };
+		ABA6E1AA090B2A000048AA26 /* CMasterIndexFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CMasterIndexFile.cpp; path = Classes/Database/CMasterIndexFile.cpp; sourceTree = "<group>"; };
+		ABA6E1AB090B2A000048AA26 /* CMasterIndexFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMasterIndexFile.h; path = Classes/Database/CMasterIndexFile.h; sourceTree = "<group>"; };
+		ABA6E1AC090B2A000048AA26 /* CVarDataFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CVarDataFile.cpp; path = Classes/Database/CVarDataFile.cpp; sourceTree = "<group>"; };
+		ABA6E1AD090B2A000048AA26 /* CVarDataFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CVarDataFile.h; path = Classes/Database/CVarDataFile.h; sourceTree = "<group>"; };
+		ABA6E1AE090B2A000048AA26 /* DatabaseDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DatabaseDefines.h; path = Classes/Database/DatabaseDefines.h; sourceTree = "<group>"; };
+		ABA6E1AF090B2A000048AA26 /* DatabaseTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DatabaseTypes.h; path = Classes/Database/DatabaseTypes.h; sourceTree = "<group>"; };
+		ABA6E1CA090B2CB90048AA26 /* DebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DebugMacros.cpp; path = Classes/DebugMacros.cpp; sourceTree = "<group>"; };
+		ABA6E1CB090B2CB90048AA26 /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DebugMacros.h; path = Classes/DebugMacros.h; sourceTree = "<group>"; };
+		ABA6E1CC090B2CB90048AA26 /* GenericUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GenericUtils.cpp; path = Classes/GenericUtils.cpp; sourceTree = "<group>"; };
+		ABA6E1D9090B2CE60048AA26 /* ProductInformation.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ProductInformation.cpp; path = "Classes/3rd Party/ProductInformation.cpp"; sourceTree = "<group>"; };
+		ABA6E1DA090B2CE60048AA26 /* ProductInformation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ProductInformation.h; path = "Classes/3rd Party/ProductInformation.h"; sourceTree = "<group>"; };
+		ABB76A4C0989BB59002D66AB /* Galactica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galactica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB76A4E0989BB59002D66AB /* Galactica-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "Galactica-Info.plist"; path = "/Users/ezavada/Galactica/v3.0-dev/Galactica-Info.plist"; sourceTree = "<absolute>"; };
+		ABB76D1D098A47F1002D66AB /* Buttons.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = Buttons.rsrc; path = Resources/Buttons.rsrc; sourceTree = "<group>"; };
+		ABB76D1E098A47F1002D66AB /* DebugMode.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = DebugMode.rsrc; path = Resources/DebugMode.rsrc; sourceTree = "<group>"; };
+		ABB76D23098A4808002D66AB /* Galactica_Non_Module.PPob */ = {isa = PBXFileReference; lastKnownFileType = archive.ppob; name = Galactica_Non_Module.PPob; path = Resources/Galactica_Non_Module.PPob; sourceTree = "<group>"; };
+		ABB76D24098A4808002D66AB /* Galactica.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = Galactica.rsrc; path = Resources/Galactica.rsrc; sourceTree = "<group>"; };
+		ABB76D25098A4808002D66AB /* GalacticaCarbon.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = GalacticaCarbon.rsrc; path = Resources/GalacticaCarbon.rsrc; sourceTree = "<group>"; };
+		ABB76D26098A4808002D66AB /* GalacticaSounds.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = GalacticaSounds.rsrc; path = Resources/GalacticaSounds.rsrc; sourceTree = "<group>"; };
+		ABB76D27098A4808002D66AB /* Help.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = Help.rsrc; path = Resources/Help.rsrc; sourceTree = "<group>"; };
+		ABB76D28098A4808002D66AB /* version.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = version.rsrc; path = Resources/version.rsrc; sourceTree = "<group>"; };
+		ABB76D39098A4996002D66AB /* Galactica.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Galactica.icns; path = Resources/Galactica.icns; sourceTree = "<group>"; };
+		ABF0394B09951D3A0016A5B4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		ABF039500995205E0016A5B4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB76A4A0989BB59002D66AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB76CF70989BE39002D66AB /* OpenPlay.framework in Frameworks */,
+				ABF0394C09951D3A0016A5B4 /* Carbon.framework in Frameworks */,
+				ABF039510995205E0016A5B4 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				ABF039500995205E0016A5B4 /* QuickTime.framework */,
+				ABF0394B09951D3A0016A5B4 /* Carbon.framework */,
+				AB7A9962092C2F5B009B5D0B /* OpenPlay.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* GalacticaServer */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				AB5508400988771900E59A2B /* Resources */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				ABB76A4E0989BB59002D66AB /* Galactica-Info.plist */,
+				ABB76D39098A4996002D66AB /* Galactica.icns */,
+			);
+			name = GalacticaServer;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6E187090B283A0048AA26 /* UI */,
+				ABA6E11A090B1E710048AA26 /* Core */,
+				ABA6E167090B26BF0048AA26 /* Thingys */,
+				ABA6E183090B28100048AA26 /* Generic */,
+				ABA6E185090B28220048AA26 /* Database */,
+				AB7A9902092C2440009B5D0B /* framework */,
+				AB5502B909885E9800E59A2B /* PowerPlant */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB76A4C0989BB59002D66AB /* Galactica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5502B909885E9800E59A2B /* PowerPlant */ = {
+			isa = PBXGroup;
+			children = (
+				AB06540C099451F500BFEA7A /* LScrollBar.cp */,
+				AB06540009944F7800BFEA7A /* LScrollerView.cp */,
+				AB55048A09886B3100E59A2B /* UExtractFromAEDesc.cp */,
+				AB55048B09886B3100E59A2B /* UProcessMgr.cp */,
+				AB5504AA09886DA800E59A2B /* UControlMgr.cp */,
+				AB55048C09886B3100E59A2B /* UTETextAction.cp */,
+				AB55047809886AC500E59A2B /* LDataStream.cp */,
+				AB55047909886AC500E59A2B /* LHandleStream.cp */,
+				AB55047A09886AC500E59A2B /* LModelDirector.cp */,
+				AB55047B09886AC500E59A2B /* LModelProperty.cp */,
+				AB55047C09886AC500E59A2B /* LTimerTaskFunctor.cp */,
+				AB55047D09886AC500E59A2B /* LUndoer.cp */,
+				AB55047E09886AC500E59A2B /* UAppearance.cp */,
+				AB55047F09886AC500E59A2B /* UGAColorRamp.cp */,
+				AB55048009886AC500E59A2B /* UScrap.cp */,
+				AB5502BA09885EC800E59A2B /* LAction.cp */,
+				AB5502BB09885EC800E59A2B /* LActiveScroller.cp */,
+				AB5502BC09885EC800E59A2B /* LAMBevelButtonImp.cp */,
+				AB5502BD09885EC800E59A2B /* LAMControlImp.cp */,
+				AB5502BE09885EC800E59A2B /* LApplication.cp */,
+				AB5502BF09885EC800E59A2B /* LArray.cp */,
+				AB5502C009885EC800E59A2B /* LArrayIterator.cp */,
+				AB5502C109885EC800E59A2B /* LAttachable.cp */,
+				AB5502C209885EC800E59A2B /* LAttachment.cp */,
+				AB5502C309885EC800E59A2B /* LBevelButton.cp */,
+				AB5502C409885EC800E59A2B /* LBroadcaster.cp */,
+				AB5502C509885EC800E59A2B /* LButton.cp */,
+				AB5502C609885EC800E59A2B /* LCaption.cp */,
+				AB5502C709885EC800E59A2B /* LCicnButton.cp */,
+				AB5502C809885EC800E59A2B /* LCommander.cp */,
+				AB5502C909885EC800E59A2B /* LComparator.cp */,
+				AB5502CA09885EC800E59A2B /* LControl.cp */,
+				AB5502CB09885EC800E59A2B /* LControlImp.cp */,
+				AB5502CC09885EC800E59A2B /* LControlPane.cp */,
+				AB5502CD09885EC800E59A2B /* LDialogBox.cp */,
+				AB5502CE09885EC800E59A2B /* LDocApplication.cp */,
+				AB5502CF09885EC800E59A2B /* LDocument.cp */,
+				AB5502D009885EC800E59A2B /* LEditField.cp */,
+				AB5502D209885EC800E59A2B /* LEventHandler.cp */,
+				AB5502D309885EC800E59A2B /* LException.cp */,
+				AB5502D409885EC800E59A2B /* LFile.cp */,
+				AB5502D509885EC800E59A2B /* LFileStream.cp */,
+				AB5502D609885EC800E59A2B /* LFileTypeList.cp */,
+				AB5502D709885EC800E59A2B /* LGABevelButtonImp.cp */,
+				AB5502D809885EC800E59A2B /* LGACIconMixin.cp */,
+				AB5502D909885EC800E59A2B /* LGAControlImp.cp */,
+				AB5502DA09885EC800E59A2B /* LGAIconSuiteMixin.cp */,
+				AB5502DB09885EC800E59A2B /* LGAPictureMixin.cp */,
+				AB5502DC09885EC800E59A2B /* LGATitleMixin.cp */,
+				AB5502DD09885EC800E59A2B /* LGroupBox.cp */,
+				AB5502DE09885EC800E59A2B /* LGrowZone.cp */,
+				AB5502DF09885EC800E59A2B /* LIconPane.cp */,
+				AB5502E009885EC800E59A2B /* LListener.cp */,
+				AB5502E109885EC800E59A2B /* LMenu.cp */,
+				AB5502E209885EC800E59A2B /* LMenuBar.cp */,
+				AB5502E309885EC800E59A2B /* LMenuController.cp */,
+				AB5502E409885EC800E59A2B /* LModelObject.cp */,
+				AB5502E509885EC800E59A2B /* LOverlappingView.cp */,
+				AB5502E609885EC800E59A2B /* LPane.cp */,
+				AB5502E709885EC800E59A2B /* LPeriodical.cp */,
+				AB5502E809885EC800E59A2B /* LPicture.cp */,
+				AB5502E909885EC800E59A2B /* LPlaceHolder.cp */,
+				AB5502EA09885EC800E59A2B /* LPrintout.cp */,
+				AB5502EB09885EC800E59A2B /* LRadioGroup.cp */,
+				AB5502EC09885EC800E59A2B /* LScroller.cp */,
+				AB5502ED09885EC800E59A2B /* LSingleDoc.cp */,
+				AB5502EE09885EC800E59A2B /* LStdControl.cp */,
+				AB5502EF09885EC800E59A2B /* LStdControlImp.cp */,
+				AB5502F009885EC800E59A2B /* LStream.cp */,
+				AB5502F109885EC800E59A2B /* LString.cp */,
+				AB5502F209885EC800E59A2B /* LTabGroup.cp */,
+				AB5502F309885EC800E59A2B /* LTable.cp */,
+				AB5502F409885EC800E59A2B /* LTextButton.cp */,
+				AB5502F509885EC800E59A2B /* LTextEditView.cp */,
+				AB5502F609885EC800E59A2B /* LTimerTask.cp */,
+				AB5502F709885EC800E59A2B /* LToggleButton.cp */,
+				AB5502F809885EC800E59A2B /* LView.cp */,
+				AB5502F909885EC800E59A2B /* LWindow.cp */,
+				AB5502FA09885EC800E59A2B /* PP_Constants.cp */,
+				AB5502FB09885EC800E59A2B /* UAppleEventsMgr.cp */,
+				AB5502FC09885EC800E59A2B /* UAttachments.cp */,
+				AB5502FD09885EC800E59A2B /* UCursor.cp */,
+				AB5502FE09885EC800E59A2B /* UDebugging.cp */,
+				AB5502FF09885EC800E59A2B /* UDrawingState.cp */,
+				AB55030009885EC800E59A2B /* UDrawingUtils.cp */,
+				AB55030109885EC800E59A2B /* UEnvironment.cp */,
+				AB55030209885EC800E59A2B /* UException.cp */,
+				AB55030309885EC800E59A2B /* UGraphicUtils.cp */,
+				AB55030409885EC800E59A2B /* UGWorld.cp */,
+				AB55030509885EC800E59A2B /* UKeyFilters.cp */,
+				AB55030609885EC800E59A2B /* UMemoryMgr.cp */,
+				AB55030709885EC800E59A2B /* UModalDialogs.cp */,
+				AB55030809885EC800E59A2B /* UNavServicesDialogs.cp */,
+				AB55030909885EC800E59A2B /* UPrinting.cp */,
+				AB55030A09885EC800E59A2B /* UReanimator.cp */,
+				AB55030B09885EC800E59A2B /* URegions.cp */,
+				AB55030C09885EC800E59A2B /* URegistrar.cp */,
+				AB55030D09885EC800E59A2B /* UScreenPort.cp */,
+				AB55030E09885EC800E59A2B /* UTEViewTextAction.cp */,
+				AB55031009885EC800E59A2B /* UWindows.cp */,
+			);
+			name = PowerPlant;
+			sourceTree = "<group>";
+		};
+		AB5508400988771900E59A2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB76D1D098A47F1002D66AB /* Buttons.rsrc */,
+				ABB76D1E098A47F1002D66AB /* DebugMode.rsrc */,
+				ABB76D23098A4808002D66AB /* Galactica_Non_Module.PPob */,
+				ABB76D24098A4808002D66AB /* Galactica.rsrc */,
+				ABB76D25098A4808002D66AB /* GalacticaCarbon.rsrc */,
+				ABB76D26098A4808002D66AB /* GalacticaSounds.rsrc */,
+				ABB76D27098A4808002D66AB /* Help.rsrc */,
+				ABB76D28098A4808002D66AB /* version.rsrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AB7A9902092C2440009B5D0B /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A993F092C2994009B5D0B /* config-macosx.h */,
+				AB7A9933092C293D009B5D0B /* config.h */,
+				AB7A9934092C293D009B5D0B /* log.h */,
+				AB7A9935092C293D009B5D0B /* mutex.h */,
+				AB7A9936092C293D009B5D0B /* platform.h */,
+				AB7A9937092C293D009B5D0B /* semaphore.h */,
+				AB7A9905092C2494009B5D0B /* config-macosx.cpp */,
+				AB7A9903092C2474009B5D0B /* log.cpp */,
+				AB749B4F092C3C9800CC7BA6 /* os-macosx.cpp */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		ABA6E11A090B1E710048AA26 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB0FF2B5090ADBE9004292BD /* AGalacticThingy.cpp */,
+				ABA6E11D090B1EB00048AA26 /* ANamedThingy.cpp */,
+				ABA6E11F090B1EB00048AA26 /* CEndpoint.cpp */,
+				ABA6E126090B1FAD0048AA26 /* CShipCompMove.cpp */,
+				ABA6E127090B1FAD0048AA26 /* CThingyList.cpp */,
+				ABA6E128090B1FAD0048AA26 /* GalacticaHost.cpp */,
+				ABA6E12A090B1FAD0048AA26 /* GalacticaPackets.cpp */,
+				ABA6E12C090B1FAD0048AA26 /* GalacticaProcessor.cpp */,
+				ABA6E12E090B1FAD0048AA26 /* GalacticaShared.cpp */,
+				ABA6E130090B1FAD0048AA26 /* GalacticaUtils.cpp */,
+				ABA6E131090B1FAD0048AA26 /* MatchMakerClient.cpp */,
+				ABA6E133090B1FAD0048AA26 /* UShipUtils.cpp */,
+				ABA6E11C090B1EB00048AA26 /* AGalacticThingy.h */,
+				ABA6E11E090B1EB00048AA26 /* ANamedThingy.h */,
+				ABA6E129090B1FAD0048AA26 /* GalacticaHost.h */,
+				ABA6E12B090B1FAD0048AA26 /* GalacticaPackets.h */,
+				ABA6E12D090B1FAD0048AA26 /* GalacticaProcessor.h */,
+				ABA6E12F090B1FAD0048AA26 /* GalacticaShared.h */,
+				ABA6E132090B1FAD0048AA26 /* MatchMakerClient.h */,
+				ABA6E134090B1FAD0048AA26 /* UShipUtils.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ABA6E167090B26BF0048AA26 /* Thingys */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6E168090B27050048AA26 /* CFleet.cpp */,
+				ABA6E16A090B27050048AA26 /* CMessage.cpp */,
+				ABA6E16C090B27050048AA26 /* CRendezvous.cpp */,
+				ABA6E16E090B27050048AA26 /* CShip.cpp */,
+				ABA6E170090B27050048AA26 /* CStar.cpp */,
+				ABA6E169090B27050048AA26 /* CFleet.h */,
+				ABA6E16B090B27050048AA26 /* CMessage.h */,
+				ABA6E16D090B27050048AA26 /* CRendezvous.h */,
+				ABA6E16F090B27050048AA26 /* CShip.h */,
+			);
+			name = Thingys;
+			sourceTree = "<group>";
+		};
+		ABA6E183090B28100048AA26 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				AB5503B20988666B00E59A2B /* FullPath.c */,
+				AB9142CC09847DA500C810AB /* CActiveScrollerControl.cp */,
+				AB9142CE09847E0A00C810AB /* CBalloonApp.cp */,
+				AB9142CF09847E0A00C810AB /* CDividedView.cp */,
+				AB55049D09886BAE00E59A2B /* CFileStream.cpp */,
+				AB9142E009847E7000C810AB /* CHelpAttach.cp */,
+				AB9142E109847E7000C810AB /* CKeyCmdAttach.cp */,
+				AB9142E209847E7000C810AB /* CLayeredOffscreenView.cp */,
+				AB55049A09886B9800E59A2B /* CMemStream.cpp */,
+				AB9142FA09847FF500C810AB /* CMouseTracker.cp */,
+				AB9142FB09847FF500C810AB /* CNewGWorld.cp */,
+				AB9142E309847E7000C810AB /* CResCaption.cp */,
+				AB9142E409847E7000C810AB /* CScrollingPict.cp */,
+				AB5504A209886C3A00E59A2B /* CScrollWheelHandler.cp */,
+				AB9142E509847E7000C810AB /* CStyledText.cp */,
+				AB9142E609847E7000C810AB /* CTextTable.cp */,
+				AB9142D009847E0A00C810AB /* CWindowMenu.cp */,
+				AB9142E709847E7000C810AB /* CZoomView.cp */,
+				ABA6E1CA090B2CB90048AA26 /* DebugMacros.cpp */,
+				ABA6E1CC090B2CB90048AA26 /* GenericUtils.cpp */,
+				AB9142F009847EC200C810AB /* GenericUtilsUI.cpp */,
+				AB9142D109847E0A00C810AB /* InternetInfo.cp */,
+				AB9142D209847E0A00C810AB /* LAnimateCursor.cp */,
+				AB9142D309847E0A00C810AB /* LCursor.cp */,
+				AB9142D409847E0A00C810AB /* LPPobView.cp */,
+				AB9142D509847E0A00C810AB /* LThermometerPane.cp */,
+				AB9142F109847EC200C810AB /* LangModule.c */,
+				ABA6E1D9090B2CE60048AA26 /* ProductInformation.cpp */,
+				AB9142D609847E0A00C810AB /* Slider.cp */,
+				AB9142F209847EC200C810AB /* UNewModalDialogs.cp */,
+				AB9142F309847EC200C810AB /* USound.cp */,
+				ABA6E1CB090B2CB90048AA26 /* DebugMacros.h */,
+				ABA6E1DA090B2CE60048AA26 /* ProductInformation.h */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		ABA6E185090B28220048AA26 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6E1A0090B2A000048AA26 /* ADataStore.cpp */,
+				ABA6E1A2090B2A000048AA26 /* AMasterIndex.cpp */,
+				ABA6E1A4090B2A000048AA26 /* AMasterIndexable.cpp */,
+				ABA6E1A6090B2A000048AA26 /* CDataFile.cpp */,
+				ABA6E1A8090B2A000048AA26 /* CDeleteList.cpp */,
+				ABA6E1AA090B2A000048AA26 /* CMasterIndexFile.cpp */,
+				ABA6E1AC090B2A000048AA26 /* CVarDataFile.cpp */,
+				ABA6E1A1090B2A000048AA26 /* ADataStore.h */,
+				ABA6E1A3090B2A000048AA26 /* AMasterIndex.h */,
+				ABA6E1A5090B2A000048AA26 /* AMasterIndexable.h */,
+				ABA6E1A7090B2A000048AA26 /* CDataFile.h */,
+				ABA6E1A9090B2A000048AA26 /* CDeleteList.h */,
+				ABA6E1AB090B2A000048AA26 /* CMasterIndexFile.h */,
+				ABA6E1AD090B2A000048AA26 /* CVarDataFile.h */,
+				ABA6E1AE090B2A000048AA26 /* DatabaseDefines.h */,
+				ABA6E1AF090B2A000048AA26 /* DatabaseTypes.h */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		ABA6E187090B283A0048AA26 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB9142090983F10B00C810AB /* AGalacticThingyUI.cpp */,
+				AB91420A0983F10B00C810AB /* CChangePlayerAttach.cpp */,
+				AB91420B0983F10B00C810AB /* CFleetInfoLine.cpp */,
+				AB91420C0983F10B00C810AB /* CGalacticSlider.cpp */,
+				AB91420D0983F10B00C810AB /* CGameSetupAttach.cpp */,
+				AB91420E0983F10B00C810AB /* CSummaryLine.cpp */,
+				AB91420F0983F10B00C810AB /* CSystemInfoLine.cpp */,
+				AB9142100983F10B00C810AB /* GalacticaClient.cpp */,
+				AB9142110983F10B00C810AB /* GalacticaDoc.cp */,
+				AB9142120983F10B00C810AB /* GalacticaEventDispatcher.cp */,
+				AB9142130983F10B00C810AB /* GalacticaHostDoc.cp */,
+				AB9142140983F10B00C810AB /* GalacticaKeys.cp */,
+				AB9142150983F10B00C810AB /* GalacticaPanels.cp */,
+				AB9142160983F10B00C810AB /* GalacticaPanes.cp */,
+				AB9142170983F10B00C810AB /* GalacticaSharedUI.cpp */,
+				AB9142180983F10B00C810AB /* GalacticaSingleDoc.cp */,
+				AB9142190983F10B00C810AB /* GalacticaTables.cp */,
+				AB91421A0983F10B00C810AB /* GalacticaTextTraits.cp */,
+				AB91421B0983F10C00C810AB /* GalacticaTutorial.cp */,
+				AB91421C0983F10C00C810AB /* GalacticaUtilsUI.cpp */,
+				AB91421D0983F10C00C810AB /* GalacticaWMgr20Desktop.cp */,
+				AB91421E0983F10C00C810AB /* OrderFormAttach.cpp */,
+				ABA6E189090B28700048AA26 /* Galactica.cpp */,
+				ABA6E18D090B28700048AA26 /* GalacticaRegistration.cpp */,
+				ABA6E18A090B28700048AA26 /* Galactica.h */,
+				ABA6E18B090B28700048AA26 /* GalacticaConsts.h */,
+				ABA6E18C090B28700048AA26 /* GalacticaGlobals.h */,
+				ABA6E18E090B28700048AA26 /* GalacticaRegistration.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB76A4B0989BB59002D66AB /* Galactica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB33D82D098E96010059FAE1 /* Build configuration list for PBXNativeTarget "Galactica" */;
+			buildPhases = (
+				ABB76A480989BB59002D66AB /* Resources */,
+				ABB76A490989BB59002D66AB /* Sources */,
+				ABB76A4A0989BB59002D66AB /* Frameworks */,
+				ABB76D000989BEE3002D66AB /* CopyFiles */,
+				ABB76D070989BFE0002D66AB /* Rez */,
+				ABB76D42098A4C7E002D66AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Galactica;
+			productName = GalacticaCarbDebug;
+			productReference = ABB76A4C0989BB59002D66AB /* Galactica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB33D833098E96010059FAE1 /* Build configuration list for PBXProject "Galactica" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GalacticaServer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB76A4B0989BB59002D66AB /* Galactica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB76A480989BB59002D66AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB76D3A098A4996002D66AB /* Galactica.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		ABB76D070989BFE0002D66AB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB76D1F098A47F1002D66AB /* Buttons.rsrc in Rez */,
+				ABB76D20098A47F1002D66AB /* DebugMode.rsrc in Rez */,
+				ABB76D29098A4808002D66AB /* Galactica_Non_Module.PPob in Rez */,
+				ABB76D2A098A4808002D66AB /* Galactica.rsrc in Rez */,
+				ABB76D2B098A4808002D66AB /* GalacticaCarbon.rsrc in Rez */,
+				ABB76D2C098A4808002D66AB /* GalacticaSounds.rsrc in Rez */,
+				ABB76D2D098A4808002D66AB /* Help.rsrc in Rez */,
+				ABB76D2E098A4808002D66AB /* version.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABB76D42098A4C7E002D66AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source copyfilestoexecdir.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB76A490989BB59002D66AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB76A4F0989BBD4002D66AB /* UWindows.cp in Sources */,
+				ABB76A500989BBD4002D66AB /* UTEViewTextAction.cp in Sources */,
+				ABB76A510989BBD4002D66AB /* UTETextAction.cp in Sources */,
+				ABB76A520989BBD4002D66AB /* USound.cp in Sources */,
+				ABB76A540989BBD4002D66AB /* UShipUtils.cpp in Sources */,
+				ABB76A550989BBD4002D66AB /* UScreenPort.cp in Sources */,
+				ABB76A560989BBD4002D66AB /* UScrap.cp in Sources */,
+				ABB76A570989BBD4002D66AB /* URegistrar.cp in Sources */,
+				ABB76A580989BBD4002D66AB /* URegions.cp in Sources */,
+				ABB76A590989BBD4002D66AB /* UReanimator.cp in Sources */,
+				ABB76A5A0989BBD4002D66AB /* UProcessMgr.cp in Sources */,
+				ABB76A5B0989BBD4002D66AB /* UPrinting.cp in Sources */,
+				ABB76A5C0989BBD4002D66AB /* UNewModalDialogs.cp in Sources */,
+				ABB76A5D0989BBD4002D66AB /* UNavServicesDialogs.cp in Sources */,
+				ABB76A5E0989BBD4002D66AB /* UModalDialogs.cp in Sources */,
+				ABB76A5F0989BBD4002D66AB /* UMemoryMgr.cp in Sources */,
+				ABB76A600989BBD4002D66AB /* UKeyFilters.cp in Sources */,
+				ABB76A610989BBD4002D66AB /* UGWorld.cp in Sources */,
+				ABB76A620989BBD4002D66AB /* UGraphicUtils.cp in Sources */,
+				ABB76A630989BBD4002D66AB /* UGAColorRamp.cp in Sources */,
+				ABB76A640989BBD4002D66AB /* UExtractFromAEDesc.cp in Sources */,
+				ABB76A650989BBD4002D66AB /* UException.cp in Sources */,
+				ABB76A660989BBD4002D66AB /* UEnvironment.cp in Sources */,
+				ABB76A670989BBD4002D66AB /* UDrawingUtils.cp in Sources */,
+				ABB76A680989BBD4002D66AB /* UDrawingState.cp in Sources */,
+				ABB76A690989BBD4002D66AB /* UDebugging.cp in Sources */,
+				ABB76A6A0989BBD4002D66AB /* UCursor.cp in Sources */,
+				ABB76A6B0989BBD4002D66AB /* UControlMgr.cp in Sources */,
+				ABB76A6C0989BBD4002D66AB /* UAttachments.cp in Sources */,
+				ABB76A6D0989BBD4002D66AB /* UAppleEventsMgr.cp in Sources */,
+				ABB76A6E0989BBD4002D66AB /* UAppearance.cp in Sources */,
+				ABB76A6F0989BBD4002D66AB /* Slider.cp in Sources */,
+				ABB76A720989BBD4002D66AB /* ProductInformation.cpp in Sources */,
+				ABB76A730989BBD4002D66AB /* PP_Constants.cp in Sources */,
+				ABB76A750989BBD4002D66AB /* os-macosx.cpp in Sources */,
+				ABB76A760989BBD4002D66AB /* OrderFormAttach.cpp in Sources */,
+				ABB76A790989BBD4002D66AB /* MatchMakerClient.cpp in Sources */,
+				ABB76A7A0989BBD4002D66AB /* LWindow.cp in Sources */,
+				ABB76A7B0989BBD4002D66AB /* LView.cp in Sources */,
+				ABB76A7C0989BBD4002D66AB /* LUndoer.cp in Sources */,
+				ABB76A7D0989BBD4002D66AB /* LToggleButton.cp in Sources */,
+				ABB76A7E0989BBD4002D66AB /* LTimerTaskFunctor.cp in Sources */,
+				ABB76A7F0989BBD4002D66AB /* LTimerTask.cp in Sources */,
+				ABB76A800989BBD4002D66AB /* LThermometerPane.cp in Sources */,
+				ABB76A810989BBD4002D66AB /* LTextEditView.cp in Sources */,
+				ABB76A820989BBD4002D66AB /* LTextButton.cp in Sources */,
+				ABB76A830989BBD4002D66AB /* LTable.cp in Sources */,
+				ABB76A840989BBD4002D66AB /* LTabGroup.cp in Sources */,
+				ABB76A850989BBD4002D66AB /* LString.cp in Sources */,
+				ABB76A860989BBD4002D66AB /* LStream.cp in Sources */,
+				ABB76A870989BBD4002D66AB /* LStdControlImp.cp in Sources */,
+				ABB76A880989BBD4002D66AB /* LStdControl.cp in Sources */,
+				ABB76A890989BBD4002D66AB /* LSingleDoc.cp in Sources */,
+				ABB76A8A0989BBD4002D66AB /* LScroller.cp in Sources */,
+				ABB76A8B0989BBD4002D66AB /* LRadioGroup.cp in Sources */,
+				ABB76A8C0989BBD4002D66AB /* LPrintout.cp in Sources */,
+				ABB76A8D0989BBD4002D66AB /* LPPobView.cp in Sources */,
+				ABB76A8E0989BBD4002D66AB /* LPlaceHolder.cp in Sources */,
+				ABB76A8F0989BBD4002D66AB /* LPicture.cp in Sources */,
+				ABB76A900989BBD4002D66AB /* LPeriodical.cp in Sources */,
+				ABB76A910989BBD4002D66AB /* LPane.cp in Sources */,
+				ABB76A920989BBD4002D66AB /* LOverlappingView.cp in Sources */,
+				ABB76A940989BBD4002D66AB /* log.cpp in Sources */,
+				ABB76A950989BBD4002D66AB /* LModelProperty.cp in Sources */,
+				ABB76A960989BBD4002D66AB /* LModelObject.cp in Sources */,
+				ABB76A970989BBD4002D66AB /* LModelDirector.cp in Sources */,
+				ABB76A980989BBD4002D66AB /* LMenuController.cp in Sources */,
+				ABB76A990989BBD4002D66AB /* LMenuBar.cp in Sources */,
+				ABB76A9A0989BBD4002D66AB /* LMenu.cp in Sources */,
+				ABB76A9B0989BBD4002D66AB /* LListener.cp in Sources */,
+				ABB76A9C0989BBD4002D66AB /* LIconPane.cp in Sources */,
+				ABB76A9D0989BBD4002D66AB /* LHandleStream.cp in Sources */,
+				ABB76A9E0989BBD4002D66AB /* LGrowZone.cp in Sources */,
+				ABB76A9F0989BBD4002D66AB /* LGroupBox.cp in Sources */,
+				ABB76AA00989BBD4002D66AB /* LGATitleMixin.cp in Sources */,
+				ABB76AA10989BBD4002D66AB /* LGAPictureMixin.cp in Sources */,
+				ABB76AA20989BBD4002D66AB /* LGAIconSuiteMixin.cp in Sources */,
+				ABB76AA30989BBD4002D66AB /* LGAControlImp.cp in Sources */,
+				ABB76AA40989BBD4002D66AB /* LGACIconMixin.cp in Sources */,
+				ABB76AA50989BBD4002D66AB /* LGABevelButtonImp.cp in Sources */,
+				ABB76AA60989BBD4002D66AB /* LFileTypeList.cp in Sources */,
+				ABB76AA70989BBD4002D66AB /* LFileStream.cp in Sources */,
+				ABB76AA80989BBD4002D66AB /* LFile.cp in Sources */,
+				ABB76AA90989BBD4002D66AB /* LException.cp in Sources */,
+				ABB76AAA0989BBD4002D66AB /* LEventHandler.cp in Sources */,
+				ABB76AAB0989BBD4002D66AB /* LEditField.cp in Sources */,
+				ABB76AAC0989BBD4002D66AB /* LDocument.cp in Sources */,
+				ABB76AAD0989BBD4002D66AB /* LDocApplication.cp in Sources */,
+				ABB76AAE0989BBD4002D66AB /* LDialogBox.cp in Sources */,
+				ABB76AAF0989BBD4002D66AB /* LDataStream.cp in Sources */,
+				ABB76AB00989BBD4002D66AB /* LCursor.cp in Sources */,
+				ABB76AB10989BBD4002D66AB /* LControlPane.cp in Sources */,
+				ABB76AB20989BBD4002D66AB /* LControlImp.cp in Sources */,
+				ABB76AB30989BBD4002D66AB /* LControl.cp in Sources */,
+				ABB76AB40989BBD4002D66AB /* LComparator.cp in Sources */,
+				ABB76AB50989BBD4002D66AB /* LCommander.cp in Sources */,
+				ABB76AB60989BBD4002D66AB /* LCicnButton.cp in Sources */,
+				ABB76AB70989BBD4002D66AB /* LCaption.cp in Sources */,
+				ABB76AB80989BBD4002D66AB /* LButton.cp in Sources */,
+				ABB76AB90989BBD4002D66AB /* LBroadcaster.cp in Sources */,
+				ABB76ABA0989BBD4002D66AB /* LBevelButton.cp in Sources */,
+				ABB76ABB0989BBD4002D66AB /* LAttachment.cp in Sources */,
+				ABB76ABC0989BBD4002D66AB /* LAttachable.cp in Sources */,
+				ABB76ABD0989BBD4002D66AB /* LArrayIterator.cp in Sources */,
+				ABB76ABE0989BBD4002D66AB /* LArray.cp in Sources */,
+				ABB76ABF0989BBD4002D66AB /* LApplication.cp in Sources */,
+				ABB76AC00989BBD4002D66AB /* LAnimateCursor.cp in Sources */,
+				ABB76AC10989BBD4002D66AB /* LangModule.c in Sources */,
+				ABB76AC20989BBD4002D66AB /* LAMControlImp.cp in Sources */,
+				ABB76AC30989BBD4002D66AB /* LAMBevelButtonImp.cp in Sources */,
+				ABB76AC40989BBD4002D66AB /* LActiveScroller.cp in Sources */,
+				ABB76AC50989BBD4002D66AB /* LAction.cp in Sources */,
+				ABB76AC60989BBD4002D66AB /* InternetInfo.cp in Sources */,
+				ABB76AC70989BBD4002D66AB /* GenericUtilsUI.cpp in Sources */,
+				ABB76AC90989BBD4002D66AB /* GenericUtils.cpp in Sources */,
+				ABB76ACA0989BBD4002D66AB /* GalacticaWMgr20Desktop.cp in Sources */,
+				ABB76ACB0989BBD4002D66AB /* GalacticaUtilsUI.cpp in Sources */,
+				ABB76ACC0989BBD4002D66AB /* GalacticaUtils.cpp in Sources */,
+				ABB76ACD0989BBD4002D66AB /* GalacticaTutorial.cp in Sources */,
+				ABB76ACE0989BBD4002D66AB /* GalacticaTextTraits.cp in Sources */,
+				ABB76ACF0989BBD4002D66AB /* GalacticaTables.cp in Sources */,
+				ABB76AD00989BBD4002D66AB /* GalacticaSingleDoc.cp in Sources */,
+				ABB76AD10989BBD4002D66AB /* GalacticaSharedUI.cpp in Sources */,
+				ABB76AD30989BBD4002D66AB /* GalacticaShared.cpp in Sources */,
+				ABB76AD50989BBD4002D66AB /* GalacticaRegistration.cpp in Sources */,
+				ABB76AD70989BBD4002D66AB /* GalacticaProcessor.cpp in Sources */,
+				ABB76AD80989BBD4002D66AB /* GalacticaPanes.cp in Sources */,
+				ABB76AD90989BBD4002D66AB /* GalacticaPanels.cp in Sources */,
+				ABB76ADB0989BBD4002D66AB /* GalacticaPackets.cpp in Sources */,
+				ABB76ADC0989BBD4002D66AB /* GalacticaKeys.cp in Sources */,
+				ABB76ADD0989BBD4002D66AB /* GalacticaHostDoc.cp in Sources */,
+				ABB76ADF0989BBD4002D66AB /* GalacticaHost.cpp in Sources */,
+				ABB76AE10989BBD4002D66AB /* GalacticaEventDispatcher.cp in Sources */,
+				ABB76AE20989BBD4002D66AB /* GalacticaDoc.cp in Sources */,
+				ABB76AE40989BBD4002D66AB /* GalacticaClient.cpp in Sources */,
+				ABB76AE60989BBD4002D66AB /* Galactica.cpp in Sources */,
+				ABB76AE70989BBD4002D66AB /* FullPath.c in Sources */,
+				ABB76AE90989BBD4002D66AB /* DebugMacros.cpp in Sources */,
+				ABB76AEC0989BBD4002D66AB /* CZoomView.cp in Sources */,
+				ABB76AED0989BBD4002D66AB /* CWindowMenu.cp in Sources */,
+				ABB76AEF0989BBD4002D66AB /* CVarDataFile.cpp in Sources */,
+				ABB76AF00989BBD4002D66AB /* CThingyList.cpp in Sources */,
+				ABB76AF10989BBD4002D66AB /* CTextTable.cp in Sources */,
+				ABB76AF20989BBD4002D66AB /* CSystemInfoLine.cpp in Sources */,
+				ABB76AF30989BBD4002D66AB /* CSummaryLine.cpp in Sources */,
+				ABB76AF40989BBD4002D66AB /* CStyledText.cp in Sources */,
+				ABB76AF50989BBD4002D66AB /* CStar.cpp in Sources */,
+				ABB76AF60989BBD4002D66AB /* CShipCompMove.cpp in Sources */,
+				ABB76AF80989BBD4002D66AB /* CShip.cpp in Sources */,
+				ABB76AF90989BBD4002D66AB /* CScrollWheelHandler.cp in Sources */,
+				ABB76AFA0989BBD4002D66AB /* CScrollingPict.cp in Sources */,
+				ABB76AFB0989BBD4002D66AB /* CResCaption.cp in Sources */,
+				ABB76AFD0989BBD4002D66AB /* CRendezvous.cpp in Sources */,
+				ABB76B000989BBD4002D66AB /* config-macosx.cpp in Sources */,
+				ABB76B010989BBD4002D66AB /* CNewGWorld.cp in Sources */,
+				ABB76B020989BBD4002D66AB /* CMouseTracker.cp in Sources */,
+				ABB76B040989BBD4002D66AB /* CMessage.cpp in Sources */,
+				ABB76B050989BBD4002D66AB /* CMemStream.cpp in Sources */,
+				ABB76B070989BBD4002D66AB /* CMasterIndexFile.cpp in Sources */,
+				ABB76B080989BBD4002D66AB /* CLayeredOffscreenView.cp in Sources */,
+				ABB76B090989BBD4002D66AB /* CKeyCmdAttach.cp in Sources */,
+				ABB76B0A0989BBD4002D66AB /* CHelpAttach.cp in Sources */,
+				ABB76B0B0989BBD4002D66AB /* CGameSetupAttach.cpp in Sources */,
+				ABB76B0C0989BBD4002D66AB /* CGalacticSlider.cpp in Sources */,
+				ABB76B0D0989BBD4002D66AB /* CFleetInfoLine.cpp in Sources */,
+				ABB76B0F0989BBD4002D66AB /* CFleet.cpp in Sources */,
+				ABB76B100989BBD4002D66AB /* CFileStream.cpp in Sources */,
+				ABB76B110989BBD4002D66AB /* CEndpoint.cpp in Sources */,
+				ABB76B120989BBD4002D66AB /* CDividedView.cp in Sources */,
+				ABB76B140989BBD4002D66AB /* CDeleteList.cpp in Sources */,
+				ABB76B160989BBD4002D66AB /* CDataFile.cpp in Sources */,
+				ABB76B170989BBD4002D66AB /* CChangePlayerAttach.cpp in Sources */,
+				ABB76B180989BBD4002D66AB /* CBalloonApp.cp in Sources */,
+				ABB76B190989BBD4002D66AB /* CActiveScrollerControl.cp in Sources */,
+				ABB76B1B0989BBD4002D66AB /* ANamedThingy.cpp in Sources */,
+				ABB76B1D0989BBD4002D66AB /* AMasterIndexable.cpp in Sources */,
+				ABB76B1F0989BBD4002D66AB /* AMasterIndex.cpp in Sources */,
+				ABB76B200989BBD4002D66AB /* AGalacticThingyUI.cpp in Sources */,
+				ABB76B220989BBD4002D66AB /* AGalacticThingy.cpp in Sources */,
+				ABB76B240989BBD4002D66AB /* ADataStore.cpp in Sources */,
+				AB06540109944F7800BFEA7A /* LScrollerView.cp in Sources */,
+				AB06540D099451F500BFEA7A /* LScrollBar.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB33D82E098E96010059FAE1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.8.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"DB_LOG_ACTIONS=1",
+					"DB_DEBUG_MODE=1",
+					DEBUG_MACROS_ENABLED,
+					"DB_DEBUG_LOG=1",
+					OPENPLAY_LIMITED,
+					"TUTORIAL_SUPPORT=1",
+					"BALLOON_SUPPORT=0",
+					"NO_GAME_RANGER_SUPPORT=1",
+					"NO_GAME_SMITH_SUPPORT=1",
+					PLATFORM_USE_MAC_CARBON_API,
+					"TARGET_CARBON=1",
+					"TARGET_API_MAC_CARBON=1",
+					"PP_Target_Carbon=1",
+					"_CSTD=std",
+					"_STD=std",
+				);
+				HEADER_SEARCH_PATHS = (
+					Classes,
+					../FlatPowerPlant/inc,
+					../framework/inc,
+					Classes/Database,
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					/Developer/Headers/FlatCarbon/,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "Classes/3rd\\ Party";
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-long-double";
+				PRODUCT_NAME = Galactica;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		AB33D82F098E96010059FAE1 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.8.sdk/System/Library/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DB_LOG_ACTIONS=0",
+					"DB_DEBUG_MODE=0",
+					"DB_DEBUG_LOG=0",
+					OPENPLAY_LIMITED,
+					"TUTORIAL_SUPPORT=1",
+					"BALLOON_SUPPORT=0",
+					"NO_GAME_RANGER_SUPPORT=1",
+					"NO_GAME_SMITH_SUPPORT=1",
+					PLATFORM_USE_MAC_CARBON_API,
+					"TARGET_CARBON=1",
+					"TARGET_API_MAC_CARBON=1",
+					"PP_Target_Carbon=1",
+					"_CSTD=std",
+					"_STD=std",
+				);
+				HEADER_SEARCH_PATHS = (
+					Classes,
+					../FlatPowerPlant/inc,
+					../framework/inc,
+					Classes/Database,
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					/Developer/Headers/FlatCarbon/,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "Classes/3rd\\ Party";
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-long-double";
+				PRODUCT_NAME = Galactica;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		AB33D830098E96010059FAE1 /* Win32_Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Galactica;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Win32_Development;
+		};
+		AB33D831098E96010059FAE1 /* Win32_Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Galactica;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Win32_Deployment;
+		};
+		AB33D832098E96010059FAE1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Galactica;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		AB33D834098E96010059FAE1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+			};
+			name = Development;
+		};
+		AB33D835098E96010059FAE1 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Deployment;
+		};
+		AB33D836098E96010059FAE1 /* Win32_Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Win32_Development;
+		};
+		AB33D837098E96010059FAE1 /* Win32_Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Win32_Deployment;
+		};
+		AB33D838098E96010059FAE1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		ABCCD2B80B04335000D1F7AD /* Deployment_Box_Version */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/ezavada/Galactica/framework/lib/openplay/macosx/release,
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.8.sdk/System/Library/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"GALACTICA_BOX_VERSION=1",
+					"DB_LOG_ACTIONS=0",
+					"DB_DEBUG_MODE=0",
+					"DB_DEBUG_LOG=0",
+					OPENPLAY_LIMITED,
+					"TUTORIAL_SUPPORT=1",
+					"BALLOON_SUPPORT=0",
+					"NO_GAME_RANGER_SUPPORT=1",
+					"NO_GAME_SMITH_SUPPORT=1",
+					PLATFORM_USE_MAC_CARBON_API,
+					"TARGET_CARBON=1",
+					"TARGET_API_MAC_CARBON=1",
+					"PP_Target_Carbon=1",
+					"_CSTD=std",
+					"_STD=std",
+				);
+				HEADER_SEARCH_PATHS = (
+					Classes,
+					../FlatPowerPlant/inc,
+					../framework/inc,
+					Classes/Database,
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					/Developer/Headers/FlatCarbon/,
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "Classes/3rd\\ Party";
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-long-double";
+				PRODUCT_NAME = Galactica;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment_Box_Version;
+		};
+		ABCCD2B90B04335000D1F7AD /* Deployment_Box_Version */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Deployment_Box_Version;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB33D82D098E96010059FAE1 /* Build configuration list for PBXNativeTarget "Galactica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB33D82E098E96010059FAE1 /* Development */,
+				AB33D82F098E96010059FAE1 /* Deployment */,
+				ABCCD2B80B04335000D1F7AD /* Deployment_Box_Version */,
+				AB33D830098E96010059FAE1 /* Win32_Development */,
+				AB33D831098E96010059FAE1 /* Win32_Deployment */,
+				AB33D832098E96010059FAE1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		AB33D833098E96010059FAE1 /* Build configuration list for PBXProject "Galactica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB33D834098E96010059FAE1 /* Development */,
+				AB33D835098E96010059FAE1 /* Deployment */,
+				ABCCD2B90B04335000D1F7AD /* Deployment_Box_Version */,
+				AB33D836098E96010059FAE1 /* Win32_Development */,
+				AB33D837098E96010059FAE1 /* Win32_Deployment */,
+				AB33D838098E96010059FAE1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

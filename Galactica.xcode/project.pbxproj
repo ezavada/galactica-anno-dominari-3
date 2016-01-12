@@ -1,0 +1,3953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA460018CE2711CA2923 = {
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG DB_LOG_ACTIONS=1 DB_DEBUG_MODE=1 DEBUG_MACROS_ENABLED DB_DEBUG_LOG=1 OPENPLAY_LIMITED TUTORIAL_SUPPORT=1 BALLOON_SUPPORT=0 NO_GAME_RANGER_SUPPORT=1 NO_GAME_SMITH_SUPPORT=1 PLATFORM_USE_MAC_CARBON_API TARGET_CARBON=1 TARGET_API_MAC_CARBON=1 PP_Target_Carbon=1 _CSTD=std _STD=std";
+				HEADER_SEARCH_PATHS = "Classes ../FlatPowerPlant/inc ../framework/inc Classes/Database \"Classes/3rd Party\" /Developer/Headers/FlatCarbon/";
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-long-double";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA470018CE2711CA2923 = {
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "DB_LOG_ACTIONS=0 DB_DEBUG_MODE=0 DB_DEBUG_LOG=0 OPENPLAY_LIMITED TUTORIAL_SUPPORT=1 BALLOON_SUPPORT=0 NO_GAME_RANGER_SUPPORT=1 NO_GAME_SMITH_SUPPORT=1 PLATFORM_USE_MAC_CARBON_API TARGET_CARBON=1 TARGET_API_MAC_CARBON=1 PP_Target_Carbon=1 _CSTD=std _STD=std";
+				HEADER_SEARCH_PATHS = "Classes ../FlatPowerPlant/inc ../framework/inc Classes/Database \"Classes/3rd Party\" /Developer/Headers/FlatCarbon/";
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-long-double";
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		0249A662FF388D9811CA2CEA = {
+			children = (
+				ABB7680F0989AEED002D66AB,
+				ABB7680D0989AEA7002D66AB,
+				ABB768080989AE4D002D66AB,
+				AB7A9962092C2F5B009B5D0B,
+				AB55070009886F7000E59A2B,
+				0249A663FF388D9811CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0249A663FF388D9811CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.ar;
+			name = "libstdc++.a";
+			path = "/usr/lib/libstdc++.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//020
+//021
+//022
+//023
+//024
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA460018CE2711CA2923,
+				014CEA470018CE2711CA2923,
+				AB0FF2A2090AD863004292BD,
+				AB0FF2A3090AD86D004292BD,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				ABB76A4B0989BB59002D66AB,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				08FB7795FE84155DC02AAC07,
+				AB5508400988771900E59A2B,
+				0249A662FF388D9811CA2CEA,
+				1AB674ADFE9D54B511CA2CBB,
+				ABB76A4E0989BB59002D66AB,
+				ABB76D39098A4996002D66AB,
+			);
+			isa = PBXGroup;
+			name = GalacticaServer;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				ABA6E187090B283A0048AA26,
+				ABA6E11A090B1E710048AA26,
+				ABA6E167090B26BF0048AA26,
+				ABA6E183090B28100048AA26,
+				ABA6E185090B28220048AA26,
+				AB7A9902092C2440009B5D0B,
+				AB5502B909885E9800E59A2B,
+			);
+			isa = PBXGroup;
+			name = Source;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+//080
+//081
+//082
+//083
+//084
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				ABB76A4C0989BB59002D66AB,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//AB0
+//AB1
+//AB2
+//AB3
+//AB4
+		AB0FF2A2090AD863004292BD = {
+			buildSettings = {
+			};
+			isa = PBXBuildStyle;
+			name = "Win32 Development";
+		};
+		AB0FF2A3090AD86D004292BD = {
+			buildSettings = {
+			};
+			isa = PBXBuildStyle;
+			name = "Win32 Deployment";
+		};
+		AB0FF2B5090ADBE9004292BD = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = AGalacticThingy.cpp;
+			path = Classes/AGalacticThingy.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB5502B909885E9800E59A2B = {
+			children = (
+				AB55048A09886B3100E59A2B,
+				AB55048B09886B3100E59A2B,
+				AB5504AA09886DA800E59A2B,
+				AB55048C09886B3100E59A2B,
+				AB55047809886AC500E59A2B,
+				AB55047909886AC500E59A2B,
+				AB55047A09886AC500E59A2B,
+				AB55047B09886AC500E59A2B,
+				AB55047C09886AC500E59A2B,
+				AB55047D09886AC500E59A2B,
+				AB55047E09886AC500E59A2B,
+				AB55047F09886AC500E59A2B,
+				AB55048009886AC500E59A2B,
+				AB5502BA09885EC800E59A2B,
+				AB5502BB09885EC800E59A2B,
+				AB5502BC09885EC800E59A2B,
+				AB5502BD09885EC800E59A2B,
+				AB5502BE09885EC800E59A2B,
+				AB5502BF09885EC800E59A2B,
+				AB5502C009885EC800E59A2B,
+				AB5502C109885EC800E59A2B,
+				AB5502C209885EC800E59A2B,
+				AB5502C309885EC800E59A2B,
+				AB5502C409885EC800E59A2B,
+				AB5502C509885EC800E59A2B,
+				AB5502C609885EC800E59A2B,
+				AB5502C709885EC800E59A2B,
+				AB5502C809885EC800E59A2B,
+				AB5502C909885EC800E59A2B,
+				AB5502CA09885EC800E59A2B,
+				AB5502CB09885EC800E59A2B,
+				AB5502CC09885EC800E59A2B,
+				AB5502CD09885EC800E59A2B,
+				AB5502CE09885EC800E59A2B,
+				AB5502CF09885EC800E59A2B,
+				AB5502D009885EC800E59A2B,
+				AB5502D209885EC800E59A2B,
+				AB5502D309885EC800E59A2B,
+				AB5502D409885EC800E59A2B,
+				AB5502D509885EC800E59A2B,
+				AB5502D609885EC800E59A2B,
+				AB5502D709885EC800E59A2B,
+				AB5502D809885EC800E59A2B,
+				AB5502D909885EC800E59A2B,
+				AB5502DA09885EC800E59A2B,
+				AB5502DB09885EC800E59A2B,
+				AB5502DC09885EC800E59A2B,
+				AB5502DD09885EC800E59A2B,
+				AB5502DE09885EC800E59A2B,
+				AB5502DF09885EC800E59A2B,
+				AB5502E009885EC800E59A2B,
+				AB5502E109885EC800E59A2B,
+				AB5502E209885EC800E59A2B,
+				AB5502E309885EC800E59A2B,
+				AB5502E409885EC800E59A2B,
+				AB5502E509885EC800E59A2B,
+				AB5502E609885EC800E59A2B,
+				AB5502E709885EC800E59A2B,
+				AB5502E809885EC800E59A2B,
+				AB5502E909885EC800E59A2B,
+				AB5502EA09885EC800E59A2B,
+				AB5502EB09885EC800E59A2B,
+				AB5502EC09885EC800E59A2B,
+				AB5502ED09885EC800E59A2B,
+				AB5502EE09885EC800E59A2B,
+				AB5502EF09885EC800E59A2B,
+				AB5502F009885EC800E59A2B,
+				AB5502F109885EC800E59A2B,
+				AB5502F209885EC800E59A2B,
+				AB5502F309885EC800E59A2B,
+				AB5502F409885EC800E59A2B,
+				AB5502F509885EC800E59A2B,
+				AB5502F609885EC800E59A2B,
+				AB5502F709885EC800E59A2B,
+				AB5502F809885EC800E59A2B,
+				AB5502F909885EC800E59A2B,
+				AB5502FA09885EC800E59A2B,
+				AB5502FB09885EC800E59A2B,
+				AB5502FC09885EC800E59A2B,
+				AB5502FD09885EC800E59A2B,
+				AB5502FE09885EC800E59A2B,
+				AB5502FF09885EC800E59A2B,
+				AB55030009885EC800E59A2B,
+				AB55030109885EC800E59A2B,
+				AB55030209885EC800E59A2B,
+				AB55030309885EC800E59A2B,
+				AB55030409885EC800E59A2B,
+				AB55030509885EC800E59A2B,
+				AB55030609885EC800E59A2B,
+				AB55030709885EC800E59A2B,
+				AB55030809885EC800E59A2B,
+				AB55030909885EC800E59A2B,
+				AB55030A09885EC800E59A2B,
+				AB55030B09885EC800E59A2B,
+				AB55030C09885EC800E59A2B,
+				AB55030D09885EC800E59A2B,
+				AB55030E09885EC800E59A2B,
+				AB55031009885EC800E59A2B,
+			);
+			isa = PBXGroup;
+			name = PowerPlant;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB5502BA09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAction.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAction.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502BB09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LActiveScroller.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LActiveScroller.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502BC09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAMBevelButtonImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAMBevelButtonImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502BD09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAMControlImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAMControlImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502BE09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LApplication.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LApplication.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502BF09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LArray.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LArray.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LArrayIterator.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LArrayIterator.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C109885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAttachable.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAttachable.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C209885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAttachment.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LAttachment.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C309885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LBevelButton.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LBevelButton.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C409885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LBroadcaster.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LBroadcaster.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C509885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LButton.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LButton.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C609885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LCaption.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCaption.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C709885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LCicnButton.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCicnButton.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C809885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LCommander.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LCommander.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502C909885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LComparator.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LComparator.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CA09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LControl.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControl.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CB09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LControlImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControlImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CC09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LControlPane.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LControlPane.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CD09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LDialogBox.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDialogBox.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CE09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LDocApplication.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDocApplication.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502CF09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LDocument.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDocument.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LEditField.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LEditField.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D209885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LEventHandler.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LEventHandler.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D309885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LException.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LException.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D409885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LFile.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFile.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D509885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LFileStream.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFileStream.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D609885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LFileTypeList.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LFileTypeList.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D709885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGABevelButtonImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGABevelButtonImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D809885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGACIconMixin.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGACIconMixin.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502D909885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGAControlImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAControlImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DA09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGAIconSuiteMixin.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAIconSuiteMixin.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DB09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGAPictureMixin.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGAPictureMixin.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DC09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGATitleMixin.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGATitleMixin.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DD09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGroupBox.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGroupBox.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DE09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LGrowZone.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LGrowZone.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502DF09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LIconPane.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LIconPane.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LListener.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LListener.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E109885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LMenu.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenu.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E209885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LMenuBar.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenuBar.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E309885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LMenuController.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LMenuController.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E409885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LModelObject.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelObject.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E509885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LOverlappingView.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LOverlappingView.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E609885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPane.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPane.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E709885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPeriodical.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPeriodical.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E809885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPicture.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPicture.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502E909885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPlaceHolder.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPlaceHolder.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502EA09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPrintout.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LPrintout.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502EB09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LRadioGroup.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LRadioGroup.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502EC09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LScroller.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LScroller.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502ED09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LSingleDoc.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LSingleDoc.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502EE09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LStdControl.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStdControl.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502EF09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LStdControlImp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStdControlImp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LStream.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LStream.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F109885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LString.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LString.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F209885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTabGroup.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTabGroup.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F309885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTable.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTable.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F409885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTextButton.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTextButton.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F509885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTextEditView.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTextEditView.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F609885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTimerTask.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTimerTask.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F709885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LToggleButton.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LToggleButton.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F809885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LView.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LView.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502F909885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LWindow.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LWindow.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FA09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PP_Constants.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/PP_Constants.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FB09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UAppleEventsMgr.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAppleEventsMgr.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FC09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UAttachments.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAttachments.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FD09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UCursor.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UCursor.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FE09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UDebugging.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDebugging.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5502FF09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UDrawingState.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDrawingState.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UDrawingUtils.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UDrawingUtils.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030109885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UEnvironment.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UEnvironment.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030209885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UException.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UException.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030309885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UGraphicUtils.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGraphicUtils.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030409885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UGWorld.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGWorld.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030509885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UKeyFilters.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UKeyFilters.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030609885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UMemoryMgr.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UMemoryMgr.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030709885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UModalDialogs.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UModalDialogs.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030809885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UNavServicesDialogs.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UNavServicesDialogs.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030909885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UPrinting.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UPrinting.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030A09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UReanimator.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UReanimator.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030B09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = URegions.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/URegions.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030C09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = URegistrar.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/URegistrar.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030D09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UScreenPort.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UScreenPort.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55030E09885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UTEViewTextAction.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UTEViewTextAction.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55031009885EC800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UWindows.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UWindows.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5503B20988666B00E59A2B = {
+			explicitFileType = sourcecode.cpp.cpp;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = FullPath.c;
+			path = "Classes/3rd Party/FullPath.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB55047809886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LDataStream.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LDataStream.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047909886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LHandleStream.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LHandleStream.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047A09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LModelDirector.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelDirector.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047B09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LModelProperty.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LModelProperty.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047C09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LTimerTaskFunctor.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LTimerTaskFunctor.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047D09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LUndoer.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/LUndoer.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047E09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UAppearance.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UAppearance.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55047F09886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UGAColorRamp.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UGAColorRamp.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55048009886AC500E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UScrap.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UScrap.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55048A09886B3100E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UExtractFromAEDesc.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UExtractFromAEDesc.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55048B09886B3100E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UProcessMgr.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UProcessMgr.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55048C09886B3100E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UTETextAction.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UTETextAction.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55049A09886B9800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CMemStream.cpp;
+			path = Classes/CMemStream.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB55049D09886BAE00E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CFileStream.cpp;
+			path = Classes/CFileStream.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB5504A209886C3A00E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CScrollWheelHandler.cp;
+			path = "Classes/3rd Party/CScrollWheelHandler.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB5504AA09886DA800E59A2B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UControlMgr.cp;
+			path = /Users/ezavada/Galactica/FlatPowerPlant/src/UControlMgr.cp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB55070009886F7000E59A2B = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuickTime.framework;
+			path = /Developer/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks/QuickTime.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB5508400988771900E59A2B = {
+			children = (
+				AB598DEF09938288000B5851,
+				ABB76D1D098A47F1002D66AB,
+				ABB76D23098A4808002D66AB,
+				ABB76D24098A4808002D66AB,
+				ABB76D26098A4808002D66AB,
+				ABB76D27098A4808002D66AB,
+				ABB76D28098A4808002D66AB,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB598DEF09938288000B5851 = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = DebugMode.rsrc;
+			path = Resources/DebugMode.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB749B4F092C3C9800CC7BA6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "os-macosx.cpp";
+			path = "/Users/ezavada/Galactica/framework/src/sys/macosx/os-macosx.cpp";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9902092C2440009B5D0B = {
+			children = (
+				AB7A993F092C2994009B5D0B,
+				AB7A9933092C293D009B5D0B,
+				AB7A9934092C293D009B5D0B,
+				AB7A9935092C293D009B5D0B,
+				AB7A9936092C293D009B5D0B,
+				AB7A9937092C293D009B5D0B,
+				AB7A9905092C2494009B5D0B,
+				AB7A9903092C2474009B5D0B,
+				AB749B4F092C3C9800CC7BA6,
+			);
+			isa = PBXGroup;
+			name = framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB7A9903092C2474009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = log.cpp;
+			path = /Users/ezavada/Galactica/framework/src/sys/log.cpp;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9905092C2494009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "config-macosx.cpp";
+			path = "/Users/ezavada/Galactica/framework/src/sys/macosx/config-macosx.cpp";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9933092C293D009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = config.h;
+			path = /Users/ezavada/Galactica/framework/inc/pdg/sys/config.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9934092C293D009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = log.h;
+			path = /Users/ezavada/Galactica/framework/inc/pdg/sys/log.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9935092C293D009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = mutex.h;
+			path = /Users/ezavada/Galactica/framework/inc/pdg/sys/mutex.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9936092C293D009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = platform.h;
+			path = /Users/ezavada/Galactica/framework/inc/pdg/sys/platform.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9937092C293D009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = semaphore.h;
+			path = /Users/ezavada/Galactica/framework/inc/pdg/sys/semaphore.h;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A993F092C2994009B5D0B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "config-macosx.h";
+			path = "/Users/ezavada/Galactica/framework/src/sys/macosx/config-macosx.h";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB7A9962092C2F5B009B5D0B = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenPlay.framework;
+			path = /Users/ezavada/Galactica/framework/lib/openplay/macosx/release/OpenPlay.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AB9142090983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = AGalacticThingyUI.cpp;
+			path = Classes/AGalacticThingyUI.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420A0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CChangePlayerAttach.cpp;
+			path = Classes/CChangePlayerAttach.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420B0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CFleetInfoLine.cpp;
+			path = Classes/CFleetInfoLine.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420C0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CGalacticSlider.cpp;
+			path = Classes/CGalacticSlider.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420D0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CGameSetupAttach.cpp;
+			path = Classes/CGameSetupAttach.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420E0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CSummaryLine.cpp;
+			path = Classes/CSummaryLine.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91420F0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CSystemInfoLine.cpp;
+			path = Classes/CSystemInfoLine.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142100983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaClient.cpp;
+			path = Classes/GalacticaClient.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142110983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaDoc.cp;
+			path = Classes/GalacticaDoc.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142120983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaEventDispatcher.cp;
+			path = Classes/GalacticaEventDispatcher.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142130983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaHostDoc.cp;
+			path = Classes/GalacticaHostDoc.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142140983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaKeys.cp;
+			path = Classes/GalacticaKeys.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142150983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaPanels.cp;
+			path = Classes/GalacticaPanels.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142160983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaPanes.cp;
+			path = Classes/GalacticaPanes.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142170983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaSharedUI.cpp;
+			path = Classes/GalacticaSharedUI.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142180983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaSingleDoc.cp;
+			path = Classes/GalacticaSingleDoc.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142190983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaTables.cp;
+			path = Classes/GalacticaTables.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91421A0983F10B00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaTextTraits.cp;
+			path = Classes/GalacticaTextTraits.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91421B0983F10C00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaTutorial.cp;
+			path = Classes/GalacticaTutorial.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91421C0983F10C00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaUtilsUI.cpp;
+			path = Classes/GalacticaUtilsUI.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91421D0983F10C00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaWMgr20Desktop.cp;
+			path = Classes/GalacticaWMgr20Desktop.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB91421E0983F10C00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = OrderFormAttach.cpp;
+			path = Classes/OrderFormAttach.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142CC09847DA500C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CActiveScrollerControl.cp;
+			path = Classes/CActiveScrollerControl.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142CE09847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CBalloonApp.cp;
+			path = "Classes/3rd Party/CBalloonApp.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142CF09847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CDividedView.cp;
+			path = "Classes/3rd Party/CDividedView.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D009847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CWindowMenu.cp;
+			path = "Classes/3rd Party/CWindowMenu.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D109847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = InternetInfo.cp;
+			path = "Classes/3rd Party/InternetInfo.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D209847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LAnimateCursor.cp;
+			path = "Classes/3rd Party/LAnimateCursor.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D309847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LCursor.cp;
+			path = "Classes/3rd Party/LCursor.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D409847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LPPobView.cp;
+			path = "Classes/3rd Party/LPPobView.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D509847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = LThermometerPane.cp;
+			path = "Classes/3rd Party/LThermometerPane.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142D609847E0A00C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Slider.cp;
+			path = "Classes/3rd Party/Slider.cp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E009847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CHelpAttach.cp;
+			path = Classes/CHelpAttach.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E109847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CKeyCmdAttach.cp;
+			path = Classes/CKeyCmdAttach.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E209847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CLayeredOffscreenView.cp;
+			path = Classes/CLayeredOffscreenView.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E309847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CResCaption.cp;
+			path = Classes/CResCaption.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E409847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CScrollingPict.cp;
+			path = Classes/CScrollingPict.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E509847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CStyledText.cp;
+			path = Classes/CStyledText.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E609847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CTextTable.cp;
+			path = Classes/CTextTable.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142E709847E7000C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CZoomView.cp;
+			path = Classes/CZoomView.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142F009847EC200C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GenericUtilsUI.cpp;
+			path = Classes/GenericUtilsUI.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142F109847EC200C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = LangModule.c;
+			path = Classes/LangModule.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142F209847EC200C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UNewModalDialogs.cp;
+			path = Classes/UNewModalDialogs.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142F309847EC200C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = USound.cp;
+			path = Classes/USound.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142FA09847FF500C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CMouseTracker.cp;
+			path = Classes/CMouseTracker.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		AB9142FB09847FF500C810AB = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CNewGWorld.cp;
+			path = Classes/CNewGWorld.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E11A090B1E710048AA26 = {
+			children = (
+				AB0FF2B5090ADBE9004292BD,
+				ABA6E11D090B1EB00048AA26,
+				ABA6E11F090B1EB00048AA26,
+				ABA6E126090B1FAD0048AA26,
+				ABA6E127090B1FAD0048AA26,
+				ABA6E128090B1FAD0048AA26,
+				ABA6E12A090B1FAD0048AA26,
+				ABA6E12C090B1FAD0048AA26,
+				ABA6E12E090B1FAD0048AA26,
+				ABA6E130090B1FAD0048AA26,
+				ABA6E131090B1FAD0048AA26,
+				ABA6E133090B1FAD0048AA26,
+				ABA6E11C090B1EB00048AA26,
+				ABA6E11E090B1EB00048AA26,
+				ABA6E129090B1FAD0048AA26,
+				ABA6E12B090B1FAD0048AA26,
+				ABA6E12D090B1FAD0048AA26,
+				ABA6E12F090B1FAD0048AA26,
+				ABA6E132090B1FAD0048AA26,
+				ABA6E134090B1FAD0048AA26,
+			);
+			isa = PBXGroup;
+			name = Core;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E11C090B1EB00048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AGalacticThingy.h;
+			path = Classes/AGalacticThingy.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E11D090B1EB00048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ANamedThingy.cpp;
+			path = Classes/ANamedThingy.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E11E090B1EB00048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ANamedThingy.h;
+			path = Classes/ANamedThingy.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E11F090B1EB00048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CEndpoint.cpp;
+			path = Classes/CEndpoint.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E126090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CShipCompMove.cpp;
+			path = Classes/CShipCompMove.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E127090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CThingyList.cpp;
+			path = Classes/CThingyList.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E128090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaHost.cpp;
+			path = Classes/GalacticaHost.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E129090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaHost.h;
+			path = Classes/GalacticaHost.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12A090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaPackets.cpp;
+			path = Classes/GalacticaPackets.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12B090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaPackets.h;
+			path = Classes/GalacticaPackets.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12C090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaProcessor.cpp;
+			path = Classes/GalacticaProcessor.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12D090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaProcessor.h;
+			path = Classes/GalacticaProcessor.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12E090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaShared.cpp;
+			path = Classes/GalacticaShared.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E12F090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaShared.h;
+			path = Classes/GalacticaShared.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E130090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaUtils.cpp;
+			path = Classes/GalacticaUtils.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E131090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = MatchMakerClient.cpp;
+			path = Classes/MatchMakerClient.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E132090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = MatchMakerClient.h;
+			path = Classes/MatchMakerClient.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E133090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = UShipUtils.cpp;
+			path = Classes/UShipUtils.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E134090B1FAD0048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = UShipUtils.h;
+			path = Classes/UShipUtils.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E167090B26BF0048AA26 = {
+			children = (
+				ABA6E168090B27050048AA26,
+				ABA6E16A090B27050048AA26,
+				ABA6E16C090B27050048AA26,
+				ABA6E16E090B27050048AA26,
+				ABA6E170090B27050048AA26,
+				ABA6E169090B27050048AA26,
+				ABA6E16B090B27050048AA26,
+				ABA6E16D090B27050048AA26,
+				ABA6E16F090B27050048AA26,
+			);
+			isa = PBXGroup;
+			name = Thingys;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E168090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CFleet.cpp;
+			path = Classes/CFleet.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E169090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CFleet.h;
+			path = Classes/CFleet.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16A090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CMessage.cpp;
+			path = Classes/CMessage.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16B090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CMessage.h;
+			path = Classes/CMessage.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16C090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CRendezvous.cpp;
+			path = Classes/CRendezvous.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16D090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CRendezvous.h;
+			path = Classes/CRendezvous.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16E090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CShip.cpp;
+			path = Classes/CShip.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E16F090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CShip.h;
+			path = Classes/CShip.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E170090B27050048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CStar.cpp;
+			path = Classes/CStar.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E183090B28100048AA26 = {
+			children = (
+				AB5503B20988666B00E59A2B,
+				AB9142CC09847DA500C810AB,
+				AB9142CE09847E0A00C810AB,
+				AB9142CF09847E0A00C810AB,
+				AB55049D09886BAE00E59A2B,
+				AB9142E009847E7000C810AB,
+				AB9142E109847E7000C810AB,
+				AB9142E209847E7000C810AB,
+				AB55049A09886B9800E59A2B,
+				AB9142FA09847FF500C810AB,
+				AB9142FB09847FF500C810AB,
+				AB9142E309847E7000C810AB,
+				AB9142E409847E7000C810AB,
+				AB5504A209886C3A00E59A2B,
+				AB9142E509847E7000C810AB,
+				AB9142E609847E7000C810AB,
+				AB9142D009847E0A00C810AB,
+				AB9142E709847E7000C810AB,
+				ABA6E1CA090B2CB90048AA26,
+				ABA6E1CC090B2CB90048AA26,
+				AB9142F009847EC200C810AB,
+				AB9142D109847E0A00C810AB,
+				AB9142D209847E0A00C810AB,
+				AB9142D309847E0A00C810AB,
+				AB9142D409847E0A00C810AB,
+				AB9142D509847E0A00C810AB,
+				AB9142F109847EC200C810AB,
+				ABA6E1D9090B2CE60048AA26,
+				AB9142D609847E0A00C810AB,
+				AB9142F209847EC200C810AB,
+				AB9142F309847EC200C810AB,
+				ABA6E1CB090B2CB90048AA26,
+				ABA6E1DA090B2CE60048AA26,
+			);
+			isa = PBXGroup;
+			name = Generic;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E185090B28220048AA26 = {
+			children = (
+				ABA6E1A0090B2A000048AA26,
+				ABA6E1A2090B2A000048AA26,
+				ABA6E1A4090B2A000048AA26,
+				ABA6E1A6090B2A000048AA26,
+				ABA6E1A8090B2A000048AA26,
+				ABA6E1AA090B2A000048AA26,
+				ABA6E1AC090B2A000048AA26,
+				ABA6E1A1090B2A000048AA26,
+				ABA6E1A3090B2A000048AA26,
+				ABA6E1A5090B2A000048AA26,
+				ABA6E1A7090B2A000048AA26,
+				ABA6E1A9090B2A000048AA26,
+				ABA6E1AB090B2A000048AA26,
+				ABA6E1AD090B2A000048AA26,
+				ABA6E1AE090B2A000048AA26,
+				ABA6E1AF090B2A000048AA26,
+			);
+			isa = PBXGroup;
+			name = Database;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E187090B283A0048AA26 = {
+			children = (
+				AB9142090983F10B00C810AB,
+				AB91420A0983F10B00C810AB,
+				AB91420B0983F10B00C810AB,
+				AB91420C0983F10B00C810AB,
+				AB91420D0983F10B00C810AB,
+				AB91420E0983F10B00C810AB,
+				AB91420F0983F10B00C810AB,
+				AB9142100983F10B00C810AB,
+				AB9142110983F10B00C810AB,
+				AB9142120983F10B00C810AB,
+				AB9142130983F10B00C810AB,
+				AB9142140983F10B00C810AB,
+				AB9142150983F10B00C810AB,
+				AB9142160983F10B00C810AB,
+				AB9142170983F10B00C810AB,
+				AB9142180983F10B00C810AB,
+				AB9142190983F10B00C810AB,
+				AB91421A0983F10B00C810AB,
+				AB91421B0983F10C00C810AB,
+				AB91421C0983F10C00C810AB,
+				AB91421D0983F10C00C810AB,
+				AB91421E0983F10C00C810AB,
+				ABA6E189090B28700048AA26,
+				ABA6E18D090B28700048AA26,
+				ABA6E18A090B28700048AA26,
+				ABA6E18B090B28700048AA26,
+				ABA6E18C090B28700048AA26,
+				ABA6E18E090B28700048AA26,
+			);
+			isa = PBXGroup;
+			name = UI;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E189090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Galactica.cpp;
+			path = Classes/Galactica.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E18A090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = Galactica.h;
+			path = Classes/Galactica.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E18B090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaConsts.h;
+			path = Classes/GalacticaConsts.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E18C090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaGlobals.h;
+			path = Classes/GalacticaGlobals.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E18D090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GalacticaRegistration.cpp;
+			path = Classes/GalacticaRegistration.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E18E090B28700048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = GalacticaRegistration.h;
+			path = Classes/GalacticaRegistration.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A0090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ADataStore.cpp;
+			path = Classes/Database/ADataStore.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A1090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ADataStore.h;
+			path = Classes/Database/ADataStore.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A2090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = AMasterIndex.cpp;
+			path = Classes/Database/AMasterIndex.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A3090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMasterIndex.h;
+			path = Classes/Database/AMasterIndex.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A4090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = AMasterIndexable.cpp;
+			path = Classes/Database/AMasterIndexable.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A5090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMasterIndexable.h;
+			path = Classes/Database/AMasterIndexable.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A6090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CDataFile.cpp;
+			path = Classes/Database/CDataFile.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A7090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CDataFile.h;
+			path = Classes/Database/CDataFile.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A8090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CDeleteList.cpp;
+			path = Classes/Database/CDeleteList.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1A9090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CDeleteList.h;
+			path = Classes/Database/CDeleteList.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AA090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CMasterIndexFile.cpp;
+			path = Classes/Database/CMasterIndexFile.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AB090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CMasterIndexFile.h;
+			path = Classes/Database/CMasterIndexFile.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AC090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CVarDataFile.cpp;
+			path = Classes/Database/CVarDataFile.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AD090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CVarDataFile.h;
+			path = Classes/Database/CVarDataFile.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AE090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = DatabaseDefines.h;
+			path = Classes/Database/DatabaseDefines.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1AF090B2A000048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = DatabaseTypes.h;
+			path = Classes/Database/DatabaseTypes.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1CA090B2CB90048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = DebugMacros.cpp;
+			path = Classes/DebugMacros.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1CB090B2CB90048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = DebugMacros.h;
+			path = Classes/DebugMacros.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1CC090B2CB90048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = GenericUtils.cpp;
+			path = Classes/GenericUtils.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1D9090B2CE60048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ProductInformation.cpp;
+			path = "Classes/3rd Party/ProductInformation.cpp";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABA6E1DA090B2CE60048AA26 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ProductInformation.h;
+			path = "Classes/3rd Party/ProductInformation.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB768080989AE4D002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /Developer/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABB7680D0989AEA7002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ApplicationServices.framework;
+			path = /Developer/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABB7680F0989AEED002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /Developer/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABB76A480989BB59002D66AB = {
+			buildActionMask = 2147483647;
+			files = (
+				ABB76D3A098A4996002D66AB,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB76A490989BB59002D66AB = {
+			buildActionMask = 2147483647;
+			files = (
+				ABB76A4F0989BBD4002D66AB,
+				ABB76A500989BBD4002D66AB,
+				ABB76A510989BBD4002D66AB,
+				ABB76A520989BBD4002D66AB,
+				ABB76A540989BBD4002D66AB,
+				ABB76A550989BBD4002D66AB,
+				ABB76A560989BBD4002D66AB,
+				ABB76A570989BBD4002D66AB,
+				ABB76A580989BBD4002D66AB,
+				ABB76A590989BBD4002D66AB,
+				ABB76A5A0989BBD4002D66AB,
+				ABB76A5B0989BBD4002D66AB,
+				ABB76A5C0989BBD4002D66AB,
+				ABB76A5D0989BBD4002D66AB,
+				ABB76A5E0989BBD4002D66AB,
+				ABB76A5F0989BBD4002D66AB,
+				ABB76A600989BBD4002D66AB,
+				ABB76A610989BBD4002D66AB,
+				ABB76A620989BBD4002D66AB,
+				ABB76A630989BBD4002D66AB,
+				ABB76A640989BBD4002D66AB,
+				ABB76A650989BBD4002D66AB,
+				ABB76A660989BBD4002D66AB,
+				ABB76A670989BBD4002D66AB,
+				ABB76A680989BBD4002D66AB,
+				ABB76A690989BBD4002D66AB,
+				ABB76A6A0989BBD4002D66AB,
+				ABB76A6B0989BBD4002D66AB,
+				ABB76A6C0989BBD4002D66AB,
+				ABB76A6D0989BBD4002D66AB,
+				ABB76A6E0989BBD4002D66AB,
+				ABB76A6F0989BBD4002D66AB,
+				ABB76A720989BBD4002D66AB,
+				ABB76A730989BBD4002D66AB,
+				ABB76A750989BBD4002D66AB,
+				ABB76A760989BBD4002D66AB,
+				ABB76A790989BBD4002D66AB,
+				ABB76A7A0989BBD4002D66AB,
+				ABB76A7B0989BBD4002D66AB,
+				ABB76A7C0989BBD4002D66AB,
+				ABB76A7D0989BBD4002D66AB,
+				ABB76A7E0989BBD4002D66AB,
+				ABB76A7F0989BBD4002D66AB,
+				ABB76A800989BBD4002D66AB,
+				ABB76A810989BBD4002D66AB,
+				ABB76A820989BBD4002D66AB,
+				ABB76A830989BBD4002D66AB,
+				ABB76A840989BBD4002D66AB,
+				ABB76A850989BBD4002D66AB,
+				ABB76A860989BBD4002D66AB,
+				ABB76A870989BBD4002D66AB,
+				ABB76A880989BBD4002D66AB,
+				ABB76A890989BBD4002D66AB,
+				ABB76A8A0989BBD4002D66AB,
+				ABB76A8B0989BBD4002D66AB,
+				ABB76A8C0989BBD4002D66AB,
+				ABB76A8D0989BBD4002D66AB,
+				ABB76A8E0989BBD4002D66AB,
+				ABB76A8F0989BBD4002D66AB,
+				ABB76A900989BBD4002D66AB,
+				ABB76A910989BBD4002D66AB,
+				ABB76A920989BBD4002D66AB,
+				ABB76A940989BBD4002D66AB,
+				ABB76A950989BBD4002D66AB,
+				ABB76A960989BBD4002D66AB,
+				ABB76A970989BBD4002D66AB,
+				ABB76A980989BBD4002D66AB,
+				ABB76A990989BBD4002D66AB,
+				ABB76A9A0989BBD4002D66AB,
+				ABB76A9B0989BBD4002D66AB,
+				ABB76A9C0989BBD4002D66AB,
+				ABB76A9D0989BBD4002D66AB,
+				ABB76A9E0989BBD4002D66AB,
+				ABB76A9F0989BBD4002D66AB,
+				ABB76AA00989BBD4002D66AB,
+				ABB76AA10989BBD4002D66AB,
+				ABB76AA20989BBD4002D66AB,
+				ABB76AA30989BBD4002D66AB,
+				ABB76AA40989BBD4002D66AB,
+				ABB76AA50989BBD4002D66AB,
+				ABB76AA60989BBD4002D66AB,
+				ABB76AA70989BBD4002D66AB,
+				ABB76AA80989BBD4002D66AB,
+				ABB76AA90989BBD4002D66AB,
+				ABB76AAA0989BBD4002D66AB,
+				ABB76AAB0989BBD4002D66AB,
+				ABB76AAC0989BBD4002D66AB,
+				ABB76AAD0989BBD4002D66AB,
+				ABB76AAE0989BBD4002D66AB,
+				ABB76AAF0989BBD4002D66AB,
+				ABB76AB00989BBD4002D66AB,
+				ABB76AB10989BBD4002D66AB,
+				ABB76AB20989BBD4002D66AB,
+				ABB76AB30989BBD4002D66AB,
+				ABB76AB40989BBD4002D66AB,
+				ABB76AB50989BBD4002D66AB,
+				ABB76AB60989BBD4002D66AB,
+				ABB76AB70989BBD4002D66AB,
+				ABB76AB80989BBD4002D66AB,
+				ABB76AB90989BBD4002D66AB,
+				ABB76ABA0989BBD4002D66AB,
+				ABB76ABB0989BBD4002D66AB,
+				ABB76ABC0989BBD4002D66AB,
+				ABB76ABD0989BBD4002D66AB,
+				ABB76ABE0989BBD4002D66AB,
+				ABB76ABF0989BBD4002D66AB,
+				ABB76AC00989BBD4002D66AB,
+				ABB76AC10989BBD4002D66AB,
+				ABB76AC20989BBD4002D66AB,
+				ABB76AC30989BBD4002D66AB,
+				ABB76AC40989BBD4002D66AB,
+				ABB76AC50989BBD4002D66AB,
+				ABB76AC60989BBD4002D66AB,
+				ABB76AC70989BBD4002D66AB,
+				ABB76AC90989BBD4002D66AB,
+				ABB76ACA0989BBD4002D66AB,
+				ABB76ACB0989BBD4002D66AB,
+				ABB76ACC0989BBD4002D66AB,
+				ABB76ACD0989BBD4002D66AB,
+				ABB76ACE0989BBD4002D66AB,
+				ABB76ACF0989BBD4002D66AB,
+				ABB76AD00989BBD4002D66AB,
+				ABB76AD10989BBD4002D66AB,
+				ABB76AD30989BBD4002D66AB,
+				ABB76AD50989BBD4002D66AB,
+				ABB76AD70989BBD4002D66AB,
+				ABB76AD80989BBD4002D66AB,
+				ABB76AD90989BBD4002D66AB,
+				ABB76ADB0989BBD4002D66AB,
+				ABB76ADC0989BBD4002D66AB,
+				ABB76ADD0989BBD4002D66AB,
+				ABB76ADF0989BBD4002D66AB,
+				ABB76AE10989BBD4002D66AB,
+				ABB76AE20989BBD4002D66AB,
+				ABB76AE40989BBD4002D66AB,
+				ABB76AE60989BBD4002D66AB,
+				ABB76AE70989BBD4002D66AB,
+				ABB76AE90989BBD4002D66AB,
+				ABB76AEC0989BBD4002D66AB,
+				ABB76AED0989BBD4002D66AB,
+				ABB76AEF0989BBD4002D66AB,
+				ABB76AF00989BBD4002D66AB,
+				ABB76AF10989BBD4002D66AB,
+				ABB76AF20989BBD4002D66AB,
+				ABB76AF30989BBD4002D66AB,
+				ABB76AF40989BBD4002D66AB,
+				ABB76AF50989BBD4002D66AB,
+				ABB76AF60989BBD4002D66AB,
+				ABB76AF80989BBD4002D66AB,
+				ABB76AF90989BBD4002D66AB,
+				ABB76AFA0989BBD4002D66AB,
+				ABB76AFB0989BBD4002D66AB,
+				ABB76AFD0989BBD4002D66AB,
+				ABB76B000989BBD4002D66AB,
+				ABB76B010989BBD4002D66AB,
+				ABB76B020989BBD4002D66AB,
+				ABB76B040989BBD4002D66AB,
+				ABB76B050989BBD4002D66AB,
+				ABB76B070989BBD4002D66AB,
+				ABB76B080989BBD4002D66AB,
+				ABB76B090989BBD4002D66AB,
+				ABB76B0A0989BBD4002D66AB,
+				ABB76B0B0989BBD4002D66AB,
+				ABB76B0C0989BBD4002D66AB,
+				ABB76B0D0989BBD4002D66AB,
+				ABB76B0F0989BBD4002D66AB,
+				ABB76B100989BBD4002D66AB,
+				ABB76B110989BBD4002D66AB,
+				ABB76B120989BBD4002D66AB,
+				ABB76B140989BBD4002D66AB,
+				ABB76B160989BBD4002D66AB,
+				ABB76B170989BBD4002D66AB,
+				ABB76B180989BBD4002D66AB,
+				ABB76B190989BBD4002D66AB,
+				ABB76B1B0989BBD4002D66AB,
+				ABB76B1D0989BBD4002D66AB,
+				ABB76B1F0989BBD4002D66AB,
+				ABB76B200989BBD4002D66AB,
+				ABB76B220989BBD4002D66AB,
+				ABB76B240989BBD4002D66AB,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB76A4A0989BB59002D66AB = {
+			buildActionMask = 2147483647;
+			files = (
+				ABB76CF60989BE39002D66AB,
+				ABB76CF70989BE39002D66AB,
+				ABB76CF80989BE39002D66AB,
+				ABB76CF90989BE39002D66AB,
+				ABB76CFA0989BE39002D66AB,
+				ABB76CFB0989BE39002D66AB,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB76A4B0989BB59002D66AB = {
+			buildPhases = (
+				ABB76A480989BB59002D66AB,
+				ABB76A490989BB59002D66AB,
+				ABB76A4A0989BB59002D66AB,
+				ABB76D000989BEE3002D66AB,
+				ABB76D070989BFE0002D66AB,
+				ABB76D42098A4C7E002D66AB,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/Users/ezavada/Galactica/framework/lib/openplay/macosx/release \"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.2.7.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Galactica-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Galactica;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Galactica;
+			productName = GalacticaCarbDebug;
+			productReference = ABB76A4C0989BB59002D66AB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GalacticaCarbDebug</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.GalacticaCarbDebug</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+		ABB76A4C0989BB59002D66AB = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = Galactica.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABB76A4E0989BB59002D66AB = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "Galactica-Info.plist";
+			path = "/Users/ezavada/Galactica/v3.0-dev/Galactica-Info.plist";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABB76A4F0989BBD4002D66AB = {
+			fileRef = AB55031009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A500989BBD4002D66AB = {
+			fileRef = AB55030E09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A510989BBD4002D66AB = {
+			fileRef = AB55048C09886B3100E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A520989BBD4002D66AB = {
+			fileRef = AB9142F309847EC200C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A540989BBD4002D66AB = {
+			fileRef = ABA6E133090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A550989BBD4002D66AB = {
+			fileRef = AB55030D09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A560989BBD4002D66AB = {
+			fileRef = AB55048009886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A570989BBD4002D66AB = {
+			fileRef = AB55030C09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A580989BBD4002D66AB = {
+			fileRef = AB55030B09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A590989BBD4002D66AB = {
+			fileRef = AB55030A09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5A0989BBD4002D66AB = {
+			fileRef = AB55048B09886B3100E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5B0989BBD4002D66AB = {
+			fileRef = AB55030909885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5C0989BBD4002D66AB = {
+			fileRef = AB9142F209847EC200C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5D0989BBD4002D66AB = {
+			fileRef = AB55030809885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5E0989BBD4002D66AB = {
+			fileRef = AB55030709885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A5F0989BBD4002D66AB = {
+			fileRef = AB55030609885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A600989BBD4002D66AB = {
+			fileRef = AB55030509885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A610989BBD4002D66AB = {
+			fileRef = AB55030409885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A620989BBD4002D66AB = {
+			fileRef = AB55030309885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A630989BBD4002D66AB = {
+			fileRef = AB55047F09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A640989BBD4002D66AB = {
+			fileRef = AB55048A09886B3100E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A650989BBD4002D66AB = {
+			fileRef = AB55030209885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A660989BBD4002D66AB = {
+			fileRef = AB55030109885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A670989BBD4002D66AB = {
+			fileRef = AB55030009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A680989BBD4002D66AB = {
+			fileRef = AB5502FF09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A690989BBD4002D66AB = {
+			fileRef = AB5502FE09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6A0989BBD4002D66AB = {
+			fileRef = AB5502FD09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6B0989BBD4002D66AB = {
+			fileRef = AB5504AA09886DA800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6C0989BBD4002D66AB = {
+			fileRef = AB5502FC09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6D0989BBD4002D66AB = {
+			fileRef = AB5502FB09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6E0989BBD4002D66AB = {
+			fileRef = AB55047E09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A6F0989BBD4002D66AB = {
+			fileRef = AB9142D609847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A720989BBD4002D66AB = {
+			fileRef = ABA6E1D9090B2CE60048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A730989BBD4002D66AB = {
+			fileRef = AB5502FA09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A750989BBD4002D66AB = {
+			fileRef = AB749B4F092C3C9800CC7BA6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A760989BBD4002D66AB = {
+			fileRef = AB91421E0983F10C00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A790989BBD4002D66AB = {
+			fileRef = ABA6E131090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7A0989BBD4002D66AB = {
+			fileRef = AB5502F909885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7B0989BBD4002D66AB = {
+			fileRef = AB5502F809885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7C0989BBD4002D66AB = {
+			fileRef = AB55047D09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7D0989BBD4002D66AB = {
+			fileRef = AB5502F709885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7E0989BBD4002D66AB = {
+			fileRef = AB55047C09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A7F0989BBD4002D66AB = {
+			fileRef = AB5502F609885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A800989BBD4002D66AB = {
+			fileRef = AB9142D509847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A810989BBD4002D66AB = {
+			fileRef = AB5502F509885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A820989BBD4002D66AB = {
+			fileRef = AB5502F409885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A830989BBD4002D66AB = {
+			fileRef = AB5502F309885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A840989BBD4002D66AB = {
+			fileRef = AB5502F209885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A850989BBD4002D66AB = {
+			fileRef = AB5502F109885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A860989BBD4002D66AB = {
+			fileRef = AB5502F009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A870989BBD4002D66AB = {
+			fileRef = AB5502EF09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A880989BBD4002D66AB = {
+			fileRef = AB5502EE09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A890989BBD4002D66AB = {
+			fileRef = AB5502ED09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8A0989BBD4002D66AB = {
+			fileRef = AB5502EC09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8B0989BBD4002D66AB = {
+			fileRef = AB5502EB09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8C0989BBD4002D66AB = {
+			fileRef = AB5502EA09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8D0989BBD4002D66AB = {
+			fileRef = AB9142D409847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8E0989BBD4002D66AB = {
+			fileRef = AB5502E909885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A8F0989BBD4002D66AB = {
+			fileRef = AB5502E809885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A900989BBD4002D66AB = {
+			fileRef = AB5502E709885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A910989BBD4002D66AB = {
+			fileRef = AB5502E609885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A920989BBD4002D66AB = {
+			fileRef = AB5502E509885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A940989BBD4002D66AB = {
+			fileRef = AB7A9903092C2474009B5D0B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A950989BBD4002D66AB = {
+			fileRef = AB55047B09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A960989BBD4002D66AB = {
+			fileRef = AB5502E409885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A970989BBD4002D66AB = {
+			fileRef = AB55047A09886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A980989BBD4002D66AB = {
+			fileRef = AB5502E309885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A990989BBD4002D66AB = {
+			fileRef = AB5502E209885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9A0989BBD4002D66AB = {
+			fileRef = AB5502E109885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9B0989BBD4002D66AB = {
+			fileRef = AB5502E009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9C0989BBD4002D66AB = {
+			fileRef = AB5502DF09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9D0989BBD4002D66AB = {
+			fileRef = AB55047909886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9E0989BBD4002D66AB = {
+			fileRef = AB5502DE09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76A9F0989BBD4002D66AB = {
+			fileRef = AB5502DD09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA00989BBD4002D66AB = {
+			fileRef = AB5502DC09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA10989BBD4002D66AB = {
+			fileRef = AB5502DB09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA20989BBD4002D66AB = {
+			fileRef = AB5502DA09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA30989BBD4002D66AB = {
+			fileRef = AB5502D909885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA40989BBD4002D66AB = {
+			fileRef = AB5502D809885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA50989BBD4002D66AB = {
+			fileRef = AB5502D709885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA60989BBD4002D66AB = {
+			fileRef = AB5502D609885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA70989BBD4002D66AB = {
+			fileRef = AB5502D509885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA80989BBD4002D66AB = {
+			fileRef = AB5502D409885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AA90989BBD4002D66AB = {
+			fileRef = AB5502D309885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAA0989BBD4002D66AB = {
+			fileRef = AB5502D209885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAB0989BBD4002D66AB = {
+			fileRef = AB5502D009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAC0989BBD4002D66AB = {
+			fileRef = AB5502CF09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAD0989BBD4002D66AB = {
+			fileRef = AB5502CE09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAE0989BBD4002D66AB = {
+			fileRef = AB5502CD09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AAF0989BBD4002D66AB = {
+			fileRef = AB55047809886AC500E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB00989BBD4002D66AB = {
+			fileRef = AB9142D309847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB10989BBD4002D66AB = {
+			fileRef = AB5502CC09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB20989BBD4002D66AB = {
+			fileRef = AB5502CB09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB30989BBD4002D66AB = {
+			fileRef = AB5502CA09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB40989BBD4002D66AB = {
+			fileRef = AB5502C909885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB50989BBD4002D66AB = {
+			fileRef = AB5502C809885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB60989BBD4002D66AB = {
+			fileRef = AB5502C709885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB70989BBD4002D66AB = {
+			fileRef = AB5502C609885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB80989BBD4002D66AB = {
+			fileRef = AB5502C509885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AB90989BBD4002D66AB = {
+			fileRef = AB5502C409885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABA0989BBD4002D66AB = {
+			fileRef = AB5502C309885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABB0989BBD4002D66AB = {
+			fileRef = AB5502C209885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABC0989BBD4002D66AB = {
+			fileRef = AB5502C109885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABD0989BBD4002D66AB = {
+			fileRef = AB5502C009885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABE0989BBD4002D66AB = {
+			fileRef = AB5502BF09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ABF0989BBD4002D66AB = {
+			fileRef = AB5502BE09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC00989BBD4002D66AB = {
+			fileRef = AB9142D209847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC10989BBD4002D66AB = {
+			fileRef = AB9142F109847EC200C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC20989BBD4002D66AB = {
+			fileRef = AB5502BD09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC30989BBD4002D66AB = {
+			fileRef = AB5502BC09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC40989BBD4002D66AB = {
+			fileRef = AB5502BB09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC50989BBD4002D66AB = {
+			fileRef = AB5502BA09885EC800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC60989BBD4002D66AB = {
+			fileRef = AB9142D109847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC70989BBD4002D66AB = {
+			fileRef = AB9142F009847EC200C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AC90989BBD4002D66AB = {
+			fileRef = ABA6E1CC090B2CB90048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACA0989BBD4002D66AB = {
+			fileRef = AB91421D0983F10C00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACB0989BBD4002D66AB = {
+			fileRef = AB91421C0983F10C00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACC0989BBD4002D66AB = {
+			fileRef = ABA6E130090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACD0989BBD4002D66AB = {
+			fileRef = AB91421B0983F10C00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACE0989BBD4002D66AB = {
+			fileRef = AB91421A0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ACF0989BBD4002D66AB = {
+			fileRef = AB9142190983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD00989BBD4002D66AB = {
+			fileRef = AB9142180983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD10989BBD4002D66AB = {
+			fileRef = AB9142170983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD30989BBD4002D66AB = {
+			fileRef = ABA6E12E090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD50989BBD4002D66AB = {
+			fileRef = ABA6E18D090B28700048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD70989BBD4002D66AB = {
+			fileRef = ABA6E12C090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD80989BBD4002D66AB = {
+			fileRef = AB9142160983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AD90989BBD4002D66AB = {
+			fileRef = AB9142150983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ADB0989BBD4002D66AB = {
+			fileRef = ABA6E12A090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ADC0989BBD4002D66AB = {
+			fileRef = AB9142140983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ADD0989BBD4002D66AB = {
+			fileRef = AB9142130983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76ADF0989BBD4002D66AB = {
+			fileRef = ABA6E128090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE10989BBD4002D66AB = {
+			fileRef = AB9142120983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE20989BBD4002D66AB = {
+			fileRef = AB9142110983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE40989BBD4002D66AB = {
+			fileRef = AB9142100983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE60989BBD4002D66AB = {
+			fileRef = ABA6E189090B28700048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE70989BBD4002D66AB = {
+			fileRef = AB5503B20988666B00E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AE90989BBD4002D66AB = {
+			fileRef = ABA6E1CA090B2CB90048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AEC0989BBD4002D66AB = {
+			fileRef = AB9142E709847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AED0989BBD4002D66AB = {
+			fileRef = AB9142D009847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AEF0989BBD4002D66AB = {
+			fileRef = ABA6E1AC090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF00989BBD4002D66AB = {
+			fileRef = ABA6E127090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF10989BBD4002D66AB = {
+			fileRef = AB9142E609847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF20989BBD4002D66AB = {
+			fileRef = AB91420F0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF30989BBD4002D66AB = {
+			fileRef = AB91420E0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF40989BBD4002D66AB = {
+			fileRef = AB9142E509847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF50989BBD4002D66AB = {
+			fileRef = ABA6E170090B27050048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF60989BBD4002D66AB = {
+			fileRef = ABA6E126090B1FAD0048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF80989BBD4002D66AB = {
+			fileRef = ABA6E16E090B27050048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AF90989BBD4002D66AB = {
+			fileRef = AB5504A209886C3A00E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AFA0989BBD4002D66AB = {
+			fileRef = AB9142E409847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AFB0989BBD4002D66AB = {
+			fileRef = AB9142E309847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76AFD0989BBD4002D66AB = {
+			fileRef = ABA6E16C090B27050048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B000989BBD4002D66AB = {
+			fileRef = AB7A9905092C2494009B5D0B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B010989BBD4002D66AB = {
+			fileRef = AB9142FB09847FF500C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B020989BBD4002D66AB = {
+			fileRef = AB9142FA09847FF500C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B040989BBD4002D66AB = {
+			fileRef = ABA6E16A090B27050048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B050989BBD4002D66AB = {
+			fileRef = AB55049A09886B9800E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B070989BBD4002D66AB = {
+			fileRef = ABA6E1AA090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B080989BBD4002D66AB = {
+			fileRef = AB9142E209847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B090989BBD4002D66AB = {
+			fileRef = AB9142E109847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B0A0989BBD4002D66AB = {
+			fileRef = AB9142E009847E7000C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B0B0989BBD4002D66AB = {
+			fileRef = AB91420D0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B0C0989BBD4002D66AB = {
+			fileRef = AB91420C0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B0D0989BBD4002D66AB = {
+			fileRef = AB91420B0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B0F0989BBD4002D66AB = {
+			fileRef = ABA6E168090B27050048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B100989BBD4002D66AB = {
+			fileRef = AB55049D09886BAE00E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B110989BBD4002D66AB = {
+			fileRef = ABA6E11F090B1EB00048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B120989BBD4002D66AB = {
+			fileRef = AB9142CF09847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B140989BBD4002D66AB = {
+			fileRef = ABA6E1A8090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B160989BBD4002D66AB = {
+			fileRef = ABA6E1A6090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B170989BBD4002D66AB = {
+			fileRef = AB91420A0983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B180989BBD4002D66AB = {
+			fileRef = AB9142CE09847E0A00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B190989BBD4002D66AB = {
+			fileRef = AB9142CC09847DA500C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B1B0989BBD4002D66AB = {
+			fileRef = ABA6E11D090B1EB00048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B1D0989BBD4002D66AB = {
+			fileRef = ABA6E1A4090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B1F0989BBD4002D66AB = {
+			fileRef = ABA6E1A2090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B200989BBD4002D66AB = {
+			fileRef = AB9142090983F10B00C810AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B220989BBD4002D66AB = {
+			fileRef = AB0FF2B5090ADBE9004292BD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76B240989BBD4002D66AB = {
+			fileRef = ABA6E1A0090B2A000048AA26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CF60989BE39002D66AB = {
+			fileRef = 0249A663FF388D9811CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CF70989BE39002D66AB = {
+			fileRef = AB7A9962092C2F5B009B5D0B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CF80989BE39002D66AB = {
+			fileRef = AB55070009886F7000E59A2B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CF90989BE39002D66AB = {
+			fileRef = ABB768080989AE4D002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CFA0989BE39002D66AB = {
+			fileRef = ABB7680D0989AEA7002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76CFB0989BE39002D66AB = {
+			fileRef = ABB7680F0989AEED002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D000989BEE3002D66AB = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABB76D010989BEF2002D66AB,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB76D010989BEF2002D66AB = {
+			fileRef = AB7A9962092C2F5B009B5D0B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D070989BFE0002D66AB = {
+			buildActionMask = 2147483647;
+			files = (
+				ABB76D1F098A47F1002D66AB,
+				ABB76D29098A4808002D66AB,
+				ABB76D2A098A4808002D66AB,
+				ABB76D2C098A4808002D66AB,
+				ABB76D2D098A4808002D66AB,
+				ABB76D2E098A4808002D66AB,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB76D1D098A47F1002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = Buttons.rsrc;
+			path = Resources/Buttons.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D1F098A47F1002D66AB = {
+			fileRef = ABB76D1D098A47F1002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D23098A4808002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.ppob;
+			name = Galactica_Non_Module.PPob;
+			path = Resources/Galactica_Non_Module.PPob;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D24098A4808002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = Galactica.rsrc;
+			path = Resources/Galactica.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D26098A4808002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = GalacticaSounds.rsrc;
+			path = Resources/GalacticaSounds.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D27098A4808002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = Help.rsrc;
+			path = Resources/Help.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D28098A4808002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			name = version.rsrc;
+			path = Resources/version.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D29098A4808002D66AB = {
+			fileRef = ABB76D23098A4808002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D2A098A4808002D66AB = {
+			fileRef = ABB76D24098A4808002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D2C098A4808002D66AB = {
+			fileRef = ABB76D26098A4808002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D2D098A4808002D66AB = {
+			fileRef = ABB76D27098A4808002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D2E098A4808002D66AB = {
+			fileRef = ABB76D28098A4808002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D39098A4996002D66AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			name = Galactica.icns;
+			path = Resources/Galactica.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		ABB76D3A098A4996002D66AB = {
+			fileRef = ABB76D39098A4996002D66AB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ABB76D42098A4C7E002D66AB = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source copyfilestoexecdir.sh";
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

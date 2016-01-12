@@ -1,0 +1,68 @@
+// ===========================================================================
+//	Galactica_Headers.pch++	   			©1997 Sacred Tree Software, inc.
+// ===========================================================================
+//
+//	
+//	Source for precompiled headers for Galacticaª using PowerPlant, 
+//	with some memory checking options turned on, and support for error logging
+//	to an output file.
+//
+//	This file #includes most header files for the PowerPlant library,
+//	as well as most of the Toolbox headers used by the PowerPlant library.
+
+#pragma once on
+
+// this macro is used to include code that only belongs in the game config host
+#define GAME_CONFIG_HOST
+
+#include <math.h>
+#include <fp.h>	// 1.2b8, CWPro4 try to fix conflict between cmath and fp.h
+
+#define PP_Suppress_Notes_20	1
+#define PP_Obsolete_ThrowExceptionCode	1	// galactica depends on old exception codes
+
+#include <ConditionalMacros.h>
+
+#if __POWERPC__
+	#pragma precompile_target "GameConfigHost_HeadersPPC"
+	
+#elif __CFM68K__
+//	#pragma precompile_target "Galactica_FinalHeadersCFM68K"
+	
+#elif __INTEL__
+//	#pragma precompile_target "Galactica_FinalHeadersX86"
+	
+#else
+//	#pragma precompile_target "Galactica_FinalHeaders68K"
+#endif
+
+	// Include the actual header files ...
+
+// the following fixes a bug in the Universal Headers 3.1, where ConditionalMacros.h
+// defines TYPE_LONGLONG, but then Endian.h checks for _LONG_LONG
+#include <ConditionalMacros.h>
+#if TYPE_LONGLONG
+	#undef _LONG_LONG
+	#define _LONG_LONG 1
+#endif
+// end Universal Headers 3.1 bug fix
+
+// the following is a bug fix for Win32 compilation with PowerPlant under QTML
+#include <ConditionalMacros.h>
+#if TARGET_OS_WIN32
+	#include <WINDOWS.H>
+	#undef CreateWindow
+#endif
+
+// use Navigation services dialogs if possible
+#if TARGET_OS_MAC && TARGET_CPU_PPC
+	// currently Nav Services is only supported on MacOS running on PowerPC
+	#define PP_StdDialogs_Option	PP_StdDialogs_Conditional
+#else
+	// for 68k and Windows, only Classic dialogs are available
+	#define PP_StdDialogs_Option	PP_StdDialogs_ClassicOnly
+#endif
+
+
+#include "PP_ClassHeaders.cp"
+

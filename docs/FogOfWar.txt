@@ -1,0 +1,213 @@
+Fog of War
+Beta
+
+---------
+TODO
+---------
+
+DONE - Courier arrival with new tech needs to update scan range
+DONE - Don't draw fleets (or other stuff?) parked at stars
+DONE - Consider: Make only planets and couriers have scanners
+DONE - Consider: much smaller apparent size for planets
+DONE - Consider: simplify scan range and stealth
+DONE - Consider: Scan range grows roughly as is, all ships have same apparent size,
+            couriers have stealth 4, everything else is stealth 1
+            vis 1 is inside lowest circle, vis 2 inside 2nd, vis 3 inside 3rd
+            (courier vis 1 inside 3rd circle)
+DONE - Consider: Smaller change to scan range with tech level increase
+DONE - Consider: Don't get events about things you can't see, except battles
+REJECTED - Consider: Picking up new tech for couriers should improve scan range?
+DONE - Test and fix multiplayer
+- WriteChangesToHost? mod in Code section below, only send visible things to client
+DONE - Consider: Can't see who owns stars unless in range
+DONE - Consider: Reduce scan range growth rate to 1/2 current rate
+DONE - Consider: art for unknown ship type instead of using courier
+DONE - Consider: don't show scout circles for couriers on course loop
+DONE - Consider: make looping courses different color (purple)
+DONE - Consider: only show innermost circle for couriers unless selected
+FIXED - Bug: ship ? showing up at planets when targeting even when they shouldn't be visible
+FIXED - BUG: course waypoints reveal ownership of stars
+FIXED - BUG: owned stars with no visibility brighter than unowned stars
+FIXED - BUG: Nico having crashes
+FIXED - BUG: can't handle game names with XML illegal chars.
+FIXED - Bug: something attacked S-180-16, courier at same was made into fleet 858 at (0.69,9.30) pos of star (turn 34)
+FIXED - Bug: turn 34, didn't see event for Red Attack 560 fleet destroying enemy fleet
+
+- BUG: crash in ThingyIsValid__FPC15AGalacticThingy + 0x3c, Aug 20 20:48:53
+- Bug: if unowned planet has one of your ships at it, show ships at planet, otherwise ship "lost"
+- Bug: when selecting course segments of courier, range color toggles between purple-white and green
+(following see file FOWTest_050818_1740.out)
+- Bug: turn 54 (or before), fleet 967 at S-114-13b, but not in ships at star list
+- Consider: see ships in fleets for fleets you can fully see
+- Consider: add back in option to turn off fog of war
+WAIT - Consider: courier's don't do combat when arriving at enemy system
+WAIT - Consider: courier on patrol in enemy system can see planet details
+WAIT - Consider: if tech level of system 1.5x tech level of courier, courier on patrol in system becomes visible
+
+---------
+Rules:
+---------
+
+ScanRangeForTechLevel (new formula for 1/2 current rate)
+	(techLevel+7) * 1500
+	
+Lvl		r1		r2 (new formula)
+ 1	  12000	  12000
+ 2    15000   13500
+ 5    24000   18000
+10    39000   25500
+
+
+No information about an item is sent from host unless it is in scan
+range of the player it is being sent to.
+
+Stars are always visible on map.
+
+Items have a size, which represents their visibility. A size 2 object is
+visible at 2x distance that a size 1 object is, all else being equal.
+
+Stealth = (tech level * 0.75) + 1
+
+Ship info per level:
+										-------- Sizes ------
+	Lvl		Speed		Scan Range	  Battle  Colony  Scout  Sat   Stealth  2 turn dist
+	 1      11000			12000	    100    2020   49.75  205	  1		  22000
+	 5      20000			36000	    200    2100   48.75  225	  4		  40000
+	10      30000			66000       300    2200   47.5	 250      8       60000
+	52     122000		   318000      1100    3040   37.0   460     40      244000
+
+Base Vis at 2 turns distance by same level planet:
+
+	Lvl	    Battle  Colony  Scout   Sat  
+	 1      54.55	 1101   27.27  111.82
+	 5      45.50	  472	11.03   50.63
+	10      41.25     302    6.60   34.38
+	52      39.04     107    1.31   16.33
+	
+Items have a scan range, which represents their ability to detect other
+objects. Formula is (TechLevel + 1) * 6000, *2 if Fast Game
+
+Formula is:
+base_visiblility = (viewer.scanrange * target.size)/(dist*target.stealth))
+if (base_visiblility >= 25) 
+	ships can be seen, velocity measured
+	planets at stars can be seen
+	visibility = 1 (speed)
+if (base_visiblility >= 35)
+	ships' owner can be determined
+	planets' owner can be determined
+	visibility = 2 (owner, based on engine particle output signature)
+if (base_visiblility >= 75)
+	ships' tech level and class can be determined
+	planets' tech level can be determined
+	visibility = 3 (tech level, class, based on size, etc...)
+if (base_visiblility(tech level 1 object of size being constructed at planet) > 75)
+	planet's production can be seen.
+	visibility = 4 (production type)
+
+Summary:
+
+In this summary, Turns Distance is the number of turns it takes for a battleship of \
+the given class to travel between the two places.
+
+Battleships stay roughly spotable at the same distances, because their increased size
+at higher levels is offset by better stealth technology. Planet with defense satellites 
+can spot enemy battleships of same level 3 turns away, can identify who they belong two 
+at 2 turns away, and can tell their class and power by 1 turn away.
+
+Defense satellites are increasing hard to spot as tech levels increase, due to the
+ever improving stealth technology incorporated, and because they don't really increase
+much in size. So at higher tech levels you have to be much closer to tell how well
+defended a planet is by satellites. For example, at 1st level, you can tell class and
+power of defense satellites at a planet by that is within two turns distance. But at
+10th level you can just barely spot them at 2 turns distance. Of course, at 10th level
+2 turns distance is 3x further away in terms of absolute distance.
+
+Colony ships are always easy to see because they are so big. However, they don't grow
+in size with tech level nearly as much as a battleship does, so they do get harder to
+see as the tech level (and thus level of stealth technology) increases. Examples:
+A level 1 colony ship is visible at 86 turns distance, detail scan at 29 turns distance
+A level 5 colony ship is visible at 37 turns distance, detail scan at 12 turns distance
+A level 20 colony ship is visible at 15 turns distance, detail scan at 5 turns distance
+
+Scout ships are really hard to spot, because they are very small and make maximum use 
+of stealth technology. Basically you have to be one just under one turns distance to spot
+a level 5 scout ship, but less than a 3rd of a turn's distance to spot a level 20 scout.
+This means in terms of absolute distance you have to be about 20% closer to spot the level
+20 scout than the level 5 scout, even when your scanner technology is at the same level
+as the scout's stealth technology.
+
+
+Res:
+Planets with defense satellites have best scan resolution
+Colony ships have 80% of defended planet's res
+Scout ships have 60% of defended planet's res
+Planet with no defense satellites has 50% defended planet's res
+Battleship has 10% defended planet's res
+
+Size:
+Star systems are always visible
+Planets have size of 5 million meters
+Scout ships have size of 50 meters - (0.25 * level), min size 1 meter
+Defense satellites have size of 200 meters + 5 * level
+Battleships have size of 100 meters + 100 * class
+Colony ships have size of 2000 meters + 20 * level
+
+Player comparision should only show known/estimated information, can't calculate from
+real values.
+
+---------
+UI
+---------
+
+- click on an object makes it's scanner range circles be drawn
+
+- ideal: way to see entire scan area of all items you own
+
+- Contact event, for things that just entered range
+
+- Lost contact event, for things that just left range, est position visible (for ? turns)
+
+- est positions are generated by client based on last known pos and velocity, not 
+  tracked by game engine
+
+---------
+AI
+---------
+
+- Must ignore any items it doesn't know about
+
+- Must continue to react to any items it knew about but has lost sight of
+
+
+---------
+Code
+---------
+
+- Add methods to AGalacticThingy to get and set scannerRange, scannerRes, size and stealth
+- Add methods to AGalacticThingy to get and set min/maxVisibility, for special items
+- Add array to AGalacticThingy which holds visibility of item to each player, and when
+  last seen
+- Add code to GalacticaProcessor::FinishEndOfTurn to calc visibility of items for 
+  each player. Items that were visible last turn but not this will generate a lost
+  contact event, items that were not visible last turn but are this turn will generate
+  a contact event, with the new flag if this item was never seen before. 
+  NOTES: have presorted list of player's stuff by scanner range * tech level, single 
+    pass starting with highest items first. Could be further optimized by using 
+    subsectors if that is done, will complicated code though. Might have to track 
+    highest tech * range item for a sector, or better yet do grid calculation to find
+    grid squares that are entirely within scan range of a particular player, thus
+    reducing number of items that need to be checked
+- Add method AGalacticThingy::getVisiblityTo(playerNum), which gets visibility from
+	array for given player
+- Add method AGalacticThingy::isVisibleTo(playerNum), which returns true if items is
+	visible by anything the player owns
+- Add code to Host::WriteChangesToHost() to check on per-player basis whether thing
+	is visible before sending to player, and if visible, to only send information they
+	can see
+- Change client CbxInPanel, CbxNaPanel, and CbxShPanel to only show info known about an
+	enemy ship, and replace the rest with question marks, or not draw it at all
+- Add code to AI to ignore any items not visible to it
+- Add code to track last known target of item for AIs to use to extrapolate
+- Update player comparision window to account for unknown data
+

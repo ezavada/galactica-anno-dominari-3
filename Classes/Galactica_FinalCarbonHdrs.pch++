@@ -1,0 +1,75 @@
+//	Galactica_FinalCarbonHdrs.pch++
+// ===========================================================================
+// Copyright (c) 1996-2002, Sacred Tree Software
+// All rights reserved
+// ===========================================================================
+//
+//	
+//	Source for precompiled headers for Galacticaª using PowerPlant, 
+//	with some memory checking options turned on, and support for error logging
+//	to an output file.
+//
+//	This file #includes most header files for the PowerPlant library,
+//	as well as most of the Toolbox headers used by the PowerPlant library.
+
+
+// detect the platform we are compiling for
+#define PLATFORM_USE_MAC_CARBON_API   // if compiling for the Mac we assume Carbon
+#include "pdg/sys/platform.h"
+
+// setup the output file to use for this 
+#if PLATFORM_PPC
+	#pragma precompile_target "Galactica_FinalHeadersCarbonPPC"
+	
+#elif PLATFORM_68K
+	#error unsupported target Macintosh 68k
+	
+#elif PLATFORM_WIN32
+	#pragma precompile_target "Galactica_FinalHeadersWin32"
+	
+#else
+	#error unsupported target ##PLATFORM_STR
+#endif
+
+// setup Mac Carbon target info
+#if PLATFORM_MAC_CARBON
+  #define TARGET_CARBON 1
+  #define TARGET_API_MAC_CARBON 1
+  #define PP_Target_Carbon 1
+#endif // PLATFORM_MAC_CARBON
+
+//#define GALACTICA_BOX_VERSION 1
+#define TUTORIAL_SUPPORT 1
+#define BALLOON_SUPPORT 0
+#define NO_GAME_SMITH_SUPPORT 1
+
+// don't include all of OpenPlay, only need low level stuff
+#define OPENPLAY_LIMITED
+
+#define PP_Suppress_Notes_20 1
+#define PP_Suppress_Notes_22 1
+#define PP_Uses_Aqua_MenuBar 1
+#define PP_StdDialogs_Option	PP_StdDialogs_NavServicesOnly   // use Navigation services dialogs
+
+#include <math.h>
+
+#if PLATFORM_MACOS
+  #include <fp.h>	// 1.2b8, CWPro4 try to fix conflict between cmath and fp.h
+#endif // PLATFORM_MACOS
+
+    // this stuff was getting included by DebugMacros.h
+#include <cstdio>
+#include <iostream>
+#include <strstream>
+
+// include debug macros but in their non-debug form
+#include "DebugMacros.h"
+
+// Include the actual header files ...
+
+#include <ConditionalMacros.h>
+
+#include "PP_ClassHeaders.cp"
+
+#include <Carbon.h>
+
